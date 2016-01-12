@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4nv-Rd-lG2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--이슈 리스트-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VK-zW-bMB">
+                                <rect key="frame" x="279" y="77" width="27" height="30"/>
+                                <connections>
+                                    <segue destination="UCI-CG-j0q" kind="show" id="aLt-rn-PQ8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LivingMockUp_1" translatesAutoresizingMaskIntoConstraints="NO" id="lxB-lH-muV">
+                                <rect key="frame" x="0.0" y="1" width="319" height="566"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="이슈 리스트" id="Yxl-ky-gHY"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="439"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="rxC-cM-5zZ">
+            <objects>
+                <viewController id="gB5-8v-ma2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DUG-L3-nGC"/>
+                        <viewControllerLayoutGuide type="bottom" id="ccJ-DU-XCz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j1L-uZ-tgy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="tJK-5L-fte"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SHp-Qc-ITm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="1105"/>
+        </scene>
+        <!--최근 기사-->
+        <scene sceneID="K4L-uh-XdF">
+            <objects>
+                <viewController id="UCI-CG-j0q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RfT-J8-1YA"/>
+                        <viewControllerLayoutGuide type="bottom" id="k0W-Jo-51q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jgt-R7-9qZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LivingMockUp_2" translatesAutoresizingMaskIntoConstraints="NO" id="dXb-hh-yAu">
+                                <rect key="frame" x="0.0" y="62" width="320" height="506"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="최근 기사" id="VsI-ZP-Viz" userLabel="최근 기사">
+                        <barButtonItem key="rightBarButtonItem" title="Modal" id="gwy-8i-R52">
+                            <connections>
+                                <segue destination="gaL-0e-EIM" kind="presentation" id="Xh5-oI-spw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZ2-MQ-ndM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="1145"/>
+        </scene>
+        <!--Modal-->
+        <scene sceneID="9am-1K-VUN">
+            <objects>
+                <viewController id="gaL-0e-EIM" userLabel="Modal" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eel-kb-UsN"/>
+                        <viewControllerLayoutGuide type="bottom" id="vMV-86-gKd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H9f-2M-qxh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LivingMockUp_3" translatesAutoresizingMaskIntoConstraints="NO" id="MSs-5d-lKw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sLO-m7-vVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539" y="1145"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="pVQ-kl-ccf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Wd-bc-8Dh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dAJ-rT-TOV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C3i-gV-uVW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TL3-Bu-QvS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9O-Er-qmR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="439"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dE9-Q6-LdJ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4nv-Rd-lG2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VUd-DF-Ntv">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gB5-8v-ma2" kind="relationship" relationship="viewControllers" id="hSg-F2-J3U"/>
+                        <segue destination="1Wd-bc-8Dh" kind="relationship" relationship="viewControllers" id="vpP-Ci-Ce3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jMA-ch-GyX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-532" y="668"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LivingMockUp_1" width="320" height="559"/>
+        <image name="LivingMockUp_2" width="320" height="558"/>
+        <image name="LivingMockUp_3" width="320" height="551"/>
+    </resources>
+</document>
