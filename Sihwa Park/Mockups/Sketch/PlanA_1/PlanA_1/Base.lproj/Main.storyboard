@@ -68,6 +68,9 @@
                                     <segue destination="fQe-8P-1Jj" kind="show" animates="NO" id="DZg-7E-zrQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bch-uE-4xM">
+                                <rect key="frame" x="20" y="477" width="95" height="40"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -145,22 +148,92 @@
                                 <rect key="frame" x="6" y="83" width="257" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmS-Ak-f8O">
+                                <rect key="frame" x="34" y="341" width="46" height="30"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="PlanA" id="ZBp-g2-MeB">
                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="aXC-WV-bjs">
                             <connections>
-                                <segue destination="LWN-qn-D0N" kind="show" id="5WP-hA-Jz7"/>
+                                <segue destination="LWN-qn-D0N" kind="show" id="miI-w6-Aol"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Yjq-Ja-z4c"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Yjq-Ja-z4c">
+                            <connections>
+                                <segue destination="e93-yn-6WX" kind="presentation" id="2UH-nk-fP5"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fX2-7t-cd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1264" y="804"/>
+        </scene>
+        <!--PlanB-->
+        <scene sceneID="dqC-r9-qSB">
+            <objects>
+                <viewController id="bg6-sW-dsW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TMx-e5-rFZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="TSh-Rx-Lx1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QfI-q9-aBH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="plan_b_home" translatesAutoresizingMaskIntoConstraints="NO" id="Pid-Ob-LCe">
+                                <rect key="frame" x="-13" y="-86" width="327" height="706"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanB" id="yyq-Pm-Bjc">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="SXX-3H-Bly"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9HC-2f-rxg"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e4A-hB-kQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2459" y="1701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VjH-1L-GQc">
+            <objects>
+                <viewController id="e93-yn-6WX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6bv-Da-YjL"/>
+                        <viewControllerLayoutGuide type="bottom" id="GxZ-o5-jXI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y3s-Hi-xf6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="new_map_modal" translatesAutoresizingMaskIntoConstraints="NO" id="Yrh-dA-fgp">
+                                <rect key="frame" x="-28" y="-273" width="360" height="1033"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ihZ-8f-A3e">
+                                <rect key="frame" x="89" y="229" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYD-tw-lxx">
+                                <rect key="frame" x="154" y="313" width="85" height="52"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="e93-yn-6WX" eventType="touchUpInside" id="Abo-mi-hEg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6h-nd-Wi8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1274" y="1514"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="G4P-d4-Z82">
@@ -180,6 +253,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="qXQ-ST-DXq">
                                 <rect key="frame" x="-1" y="487" width="321" height="86"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GG4-zu-fso">
+                                <rect key="frame" x="104" y="493" width="103" height="75"/>
+                                <connections>
+                                    <segue destination="VTS-VA-WoX" kind="show" id="yCc-nP-Gkz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -191,7 +270,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iu0-ot-j42" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1715" y="934"/>
+            <point key="canvasLocation" x="1749" y="978"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZqF-dr-STX">
@@ -227,14 +306,30 @@
                                 <rect key="frame" x="-14" y="-109" width="334" height="740"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="rkV-nd-JuB">
-                                <rect key="frame" x="-1" y="487" width="321" height="86"/>
+                                <rect key="frame" x="0.0" y="487" width="321" height="86"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYB-dj-Zxt">
+                                <rect key="frame" x="112" y="496" width="96" height="72"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvl-u9-5ZJ">
+                                <rect key="frame" x="5" y="496" width="99" height="72"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCD-Jb-ORR">
+                                <rect key="frame" x="173" y="410" width="81" height="44"/>
+                                <connections>
+                                    <segue destination="bg6-sW-dsW" kind="show" identifier="ModalDismissPush" id="BtL-ad-3JF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="recents" id="oBN-7y-4lW"/>
                     <navigationItem key="navigationItem" title="List" id="Go1-9v-DHO">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QKW-Ag-SZS"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QKW-Ag-SZS">
+                            <connections>
+                                <segue destination="ZlE-tZ-eIX" kind="presentation" id="xNQ-jQ-8SK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -254,12 +349,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-oC-UbF">
-                                <rect key="frame" x="-1" y="490" width="321" height="86"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-rL-LkC">
-                                <rect key="frame" x="-71" y="-62" width="422" height="664"/>
+                                <rect key="frame" x="-75" y="-64" width="422" height="664"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-oC-UbF">
+                                <rect key="frame" x="0.0" y="488" width="321" height="86"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qph-ZY-r0V">
+                                <rect key="frame" x="212" y="493" width="103" height="75"/>
+                                <connections>
+                                    <segue destination="U3j-R6-aqd" kind="show" id="tRy-cK-MAo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -271,7 +372,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAr-dl-xX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2096" y="1514"/>
+            <point key="canvasLocation" x="1899" y="1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pi4-gH-Rsb">
+            <objects>
+                <viewController id="ZlE-tZ-eIX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NVf-mc-htF"/>
+                        <viewControllerLayoutGuide type="bottom" id="aae-Z6-H7W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ni2-56-qAO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="new_map_modal" translatesAutoresizingMaskIntoConstraints="NO" id="7SL-3D-50d">
+                                <rect key="frame" x="-28" y="-273" width="360" height="1033"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ni2-PW-6bz">
+                                <rect key="frame" x="89" y="229" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ocv-a0-rND">
+                                <rect key="frame" x="46" y="316" width="102" height="47"/>
+                                <connections>
+                                    <action selector="modalDismissPush:" destination="ZlE-tZ-eIX" eventType="touchUpInside" id="GVu-hb-Pc4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJY-TB-6pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2650" y="1026"/>
         </scene>
     </scenes>
     <resources>
@@ -284,6 +420,8 @@
         <image name="6" width="1038" height="1600"/>
         <image name="file_tabbar" width="120" height="90"/>
         <image name="menu_tabbar" width="124" height="83"/>
+        <image name="new_map_modal" width="1064" height="1632"/>
+        <image name="plan_b_home" width="1016" height="1642"/>
         <image name="tabbar" width="430" height="104"/>
     </resources>
 </document>
