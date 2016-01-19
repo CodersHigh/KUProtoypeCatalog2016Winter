@@ -21,7 +21,7 @@
                                 <rect key="frame" x="-9" y="-49" width="339" height="644"/>
                             </imageView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ys9-el-dNg">
-                                <rect key="frame" x="20" y="83" width="241" height="44"/>
+                                <rect key="frame" x="11" y="83" width="250" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM1-dp-t0c">
@@ -81,37 +81,6 @@
             </objects>
             <point key="canvasLocation" x="1174" y="68"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="CoK-mW-xB8">
-            <objects>
-                <viewController id="ZRv-Nf-3p4" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XXQ-Mf-7wF"/>
-                        <viewControllerLayoutGuide type="bottom" id="74g-sW-Hjq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8Rv-th-Klk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="7cX-h6-Nsd">
-                                <rect key="frame" x="0.0" y="-108" width="328" height="746"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h0-Ce-28u">
-                                <rect key="frame" x="265" y="83" width="46" height="42"/>
-                            </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qKI-oV-vfP">
-                                <rect key="frame" x="20" y="82" width="245" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kK7-5G-f8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1611" y="78"/>
-        </scene>
         <!--PlanA-->
         <scene sceneID="Tsv-rj-N1e">
             <objects>
@@ -133,6 +102,10 @@
                                     <segue destination="ebT-xz-4kd" kind="show" animates="NO" id="qkv-7V-vbJ"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="파리 에펠탑" translatesAutoresizingMaskIntoConstraints="NO" id="v9L-gy-WgN">
+                                <rect key="frame" x="7" y="83" width="257" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -146,7 +119,7 @@
             </objects>
             <point key="canvasLocation" x="812" y="804"/>
         </scene>
-        <!--Title-->
+        <!--PlanA-->
         <scene sceneID="Svm-My-LZK">
             <objects>
                 <viewController id="ebT-xz-4kd" sceneMemberID="viewController">
@@ -158,19 +131,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="SeR-Ih-xkY">
-                                <rect key="frame" x="-6" y="-89" width="333" height="702"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB2-nv-c0U">
                                 <rect key="frame" x="15" y="33" width="53" height="40"/>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ai-OT-AXG">
+                                <rect key="frame" x="6" y="83" width="252" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="SeR-Ih-xkY">
+                                <rect key="frame" x="-13" y="-90" width="346" height="719"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="파리 에펠탑" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-aM-Qn6">
+                                <rect key="frame" x="6" y="83" width="257" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="ZBp-g2-MeB">
+                    <navigationItem key="navigationItem" title="PlanA" id="ZBp-g2-MeB">
                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="aXC-WV-bjs">
                             <connections>
-                                <segue destination="jo8-70-539" kind="show" id="zHV-Mi-Y2X"/>
+                                <segue destination="LWN-qn-D0N" kind="show" id="5WP-hA-Jz7"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Yjq-Ja-z4c"/>
@@ -182,32 +163,35 @@
             <point key="canvasLocation" x="1264" y="804"/>
         </scene>
         <!--PlanA-->
-        <scene sceneID="3te-38-DmH">
+        <scene sceneID="G4P-d4-Z82">
             <objects>
-                <viewController id="jo8-70-539" sceneMemberID="viewController">
+                <viewController id="LWN-qn-D0N" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Epy-kW-RoA"/>
-                        <viewControllerLayoutGuide type="bottom" id="oWc-ja-bIr"/>
+                        <viewControllerLayoutGuide type="top" id="5Ca-9i-1uS"/>
+                        <viewControllerLayoutGuide type="bottom" id="KiZ-Fp-0iK"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Eo5-gz-EhI">
+                    <view key="view" contentMode="scaleToFill" id="6RC-cR-aBF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="eOR-WJ-RCn">
-                                <rect key="frame" x="-16" y="-72" width="353" height="679"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="4_1" translatesAutoresizingMaskIntoConstraints="NO" id="rbH-wT-qRm">
+                                <rect key="frame" x="-19" y="-56" width="359" height="645"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="qXQ-ST-DXq">
+                                <rect key="frame" x="-1" y="487" width="321" height="86"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xHj-Bw-Afp"/>
-                    <navigationItem key="navigationItem" title="PlanA" id="dHM-v3-t3H">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="R8Y-7M-qFc"/>
+                    <tabBarItem key="tabBarItem" selectedImage="menu_tabbar" systemItem="mostViewed" id="uHl-Qo-dUM"/>
+                    <navigationItem key="navigationItem" title="PlanA" id="fvU-rt-5K7">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="rTr-dd-GN0"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XYr-iw-ZTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iu0-ot-j42" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1681" y="796"/>
+            <point key="canvasLocation" x="1715" y="934"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZqF-dr-STX">
@@ -227,12 +211,79 @@
             </objects>
             <point key="canvasLocation" x="-26" y="68"/>
         </scene>
+        <!--List-->
+        <scene sceneID="d2s-L2-0he">
+            <objects>
+                <viewController id="U3j-R6-aqd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QLU-KJ-2ai"/>
+                        <viewControllerLayoutGuide type="bottom" id="VjR-zO-vbF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mee-hC-Zai">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="dLs-vG-iDE">
+                                <rect key="frame" x="-14" y="-109" width="334" height="740"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="rkV-nd-JuB">
+                                <rect key="frame" x="-1" y="487" width="321" height="86"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="oBN-7y-4lW"/>
+                    <navigationItem key="navigationItem" title="List" id="Go1-9v-DHO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QKW-Ag-SZS"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPn-oP-23f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="824"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="Wki-k9-SGW">
+            <objects>
+                <viewController id="VTS-VA-WoX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kdG-LN-wvK"/>
+                        <viewControllerLayoutGuide type="bottom" id="nGo-9X-jIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HpM-IG-RYu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-oC-UbF">
+                                <rect key="frame" x="-1" y="490" width="321" height="86"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-rL-LkC">
+                                <rect key="frame" x="-71" y="-62" width="422" height="664"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="file_tabbar" systemItem="topRated" id="b2a-pA-dLo"/>
+                    <navigationItem key="navigationItem" title="PlanA" id="yLh-Jb-Tjt">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="1se-MT-0O4"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAr-dl-xX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2096" y="1514"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1" width="456" height="720"/>
         <image name="2" width="470" height="720"/>
         <image name="3" width="472" height="720"/>
         <image name="3_1" width="472" height="720"/>
-        <image name="4" width="484" height="720"/>
+        <image name="4_1" width="484" height="720"/>
+        <image name="5" width="473" height="720"/>
+        <image name="6" width="1038" height="1600"/>
+        <image name="file_tabbar" width="120" height="90"/>
+        <image name="menu_tabbar" width="124" height="83"/>
+        <image name="tabbar" width="430" height="104"/>
     </resources>
 </document>
