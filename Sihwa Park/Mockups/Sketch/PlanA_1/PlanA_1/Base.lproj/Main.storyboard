@@ -27,7 +27,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM1-dp-t0c">
                                 <rect key="frame" x="266" y="83" width="46" height="44"/>
                                 <connections>
-                                    <segue destination="xFQ-h9-59G" kind="show" id="Iq6-kd-40m"/>
+                                    <segue destination="xFQ-h9-59G" kind="show" animates="NO" id="Iq6-kd-40m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -58,6 +58,16 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="SRS-Ir-NqA">
                                 <rect key="frame" x="-16" y="-21" width="352" height="589"/>
                             </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="인천 국제 공항" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-nZ-rha">
+                                <rect key="frame" x="12" y="86" width="257" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxA-dT-e2F">
+                                <rect key="frame" x="269" y="86" width="46" height="50"/>
+                                <connections>
+                                    <segue destination="fQe-8P-1Jj" kind="show" animates="NO" id="DZg-7E-zrQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -69,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4r-Sx-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1174" y="73"/>
+            <point key="canvasLocation" x="1174" y="68"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CoK-mW-xB8">
@@ -88,9 +98,6 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h0-Ce-28u">
                                 <rect key="frame" x="265" y="83" width="46" height="42"/>
-                                <connections>
-                                    <segue destination="fQe-8P-1Jj" kind="show" id="eqt-mz-qFJ"/>
-                                </connections>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qKI-oV-vfP">
                                 <rect key="frame" x="20" y="82" width="245" height="44"/>
@@ -105,7 +112,7 @@
             </objects>
             <point key="canvasLocation" x="1611" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--PlanA-->
         <scene sceneID="Tsv-rj-N1e">
             <objects>
                 <viewController id="fQe-8P-1Jj" sceneMemberID="viewController">
@@ -123,17 +130,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BI-bg-Mg7">
                                 <rect key="frame" x="124" y="478" width="73" height="30"/>
                                 <connections>
-                                    <segue destination="ebT-xz-4kd" kind="show" id="qkv-7V-vbJ"/>
+                                    <segue destination="ebT-xz-4kd" kind="show" animates="NO" id="qkv-7V-vbJ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="dCR-iO-cDp">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Q42-k4-6ci"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ciu-Xs-u1y"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FY0-Vk-xYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="432" y="742"/>
+            <point key="canvasLocation" x="812" y="804"/>
         </scene>
         <!--Title-->
         <scene sceneID="Svm-My-LZK">
@@ -156,12 +167,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="ZBp-g2-MeB"/>
+                    <navigationItem key="navigationItem" title="Title" id="ZBp-g2-MeB">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="aXC-WV-bjs">
+                            <connections>
+                                <segue destination="jo8-70-539" kind="show" id="zHV-Mi-Y2X"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Yjq-Ja-z4c"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fX2-7t-cd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="756"/>
+            <point key="canvasLocation" x="1264" y="804"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="3te-38-DmH">
@@ -176,18 +194,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="eOR-WJ-RCn">
-                                <rect key="frame" x="-16" y="-73" width="353" height="679"/>
+                                <rect key="frame" x="-16" y="-72" width="353" height="679"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="xHj-Bw-Afp"/>
-                    <navigationItem key="navigationItem" title="PlanA" id="dHM-v3-t3H"/>
+                    <navigationItem key="navigationItem" title="PlanA" id="dHM-v3-t3H">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="R8Y-7M-qFc"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XYr-iw-ZTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1187" y="1164"/>
+            <point key="canvasLocation" x="1681" y="796"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZqF-dr-STX">
