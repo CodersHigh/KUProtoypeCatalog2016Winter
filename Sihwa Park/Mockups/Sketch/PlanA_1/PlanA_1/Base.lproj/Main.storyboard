@@ -172,7 +172,7 @@
             </objects>
             <point key="canvasLocation" x="1264" y="804"/>
         </scene>
-        <!--PlanB-->
+        <!--PlanC-->
         <scene sceneID="dqC-r9-qSB">
             <objects>
                 <viewController id="bg6-sW-dsW" sceneMemberID="viewController">
@@ -190,7 +190,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="PlanB" id="yyq-Pm-Bjc">
+                    <navigationItem key="navigationItem" title="PlanC" id="yyq-Pm-Bjc">
                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="SXX-3H-Bly"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9HC-2f-rxg"/>
                     </navigationItem>
