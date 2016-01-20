@@ -8,7 +8,7 @@
         <!--PlanA-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapScene" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,6 +20,9 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="O6M-70-AjU">
                                 <rect key="frame" x="-9" y="-49" width="339" height="644"/>
                             </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="O5g-Yn-GN3">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </mapView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ys9-el-dNg">
                                 <rect key="frame" x="11" y="83" width="250" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -43,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="786" y="68"/>
         </scene>
-        <!--PlanA-->
+        <!--incheon-->
         <scene sceneID="7yi-jR-LlK">
             <objects>
-                <viewController id="xFQ-h9-59G" sceneMemberID="viewController">
+                <viewController title="incheon" id="xFQ-h9-59G" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="srY-pB-T1R"/>
                         <viewControllerLayoutGuide type="bottom" id="yCa-EK-pvZ"/>
