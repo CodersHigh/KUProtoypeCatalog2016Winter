@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uyb-uO-tBb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--바로 시작-->
+        <scene sceneID="mps-mc-10W">
+            <objects>
+                <viewController id="1Rz-h7-Eyg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HVk-uH-pZ9"/>
+                        <viewControllerLayoutGuide type="bottom" id="qcX-DJ-p5E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f19-kO-wZe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C51-P0-sWY">
+                                <rect key="frame" x="0.0" y="64" width="320" height="115"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="LiE-jO-DXE" kind="show" id="17g-c3-1Cr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0215" translatesAutoresizingMaskIntoConstraints="NO" id="Bsr-TA-D4w">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="바로 시작" id="nd0-BH-QEt">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="7Fv-hW-ZOL">
+                            <connections>
+                                <segue destination="xL1-GP-SDS" kind="show" id="Ny1-SC-dkE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQO-GI-1i7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1895" y="386"/>
+        </scene>
+        <!--내 게임-->
+        <scene sceneID="dWR-8U-UMV">
+            <objects>
+                <viewController id="LiE-jO-DXE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Aw-BM-AM0"/>
+                        <viewControllerLayoutGuide type="bottom" id="9we-Wa-s7S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vXn-8E-7jP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0217" translatesAutoresizingMaskIntoConstraints="NO" id="xIR-Hw-0vY">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0C-JU-F6X">
+                                <rect key="frame" x="20" y="508" width="212" height="34"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="zZV-MN-jmk" kind="modal" id="v1x-kL-JGR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="내 게임" id="JHT-sH-cqZ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CgT-E9-mtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2318" y="404"/>
+        </scene>
+        <!--내 정보-->
+        <scene sceneID="2X5-Ei-Y1e">
+            <objects>
+                <viewController id="4hI-4a-VRF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RCd-MP-YYZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dhR-8T-T6L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SgD-FN-qNW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0214" translatesAutoresizingMaskIntoConstraints="NO" id="OSc-h0-R7k">
+                                <rect key="frame" x="0.0" y="59" width="320" height="509"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="내 정보" id="xku-R3-ldy">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="OF0-nr-K6d">
+                            <connections>
+                                <segue destination="lln-dz-4nm" kind="show" id="iHZ-oo-z1w"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ug-Gu-ckx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3252" y="2514"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CfM-pK-GC6">
+            <objects>
+                <viewController id="rZp-PX-DYh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q5h-j1-u7g"/>
+                        <viewControllerLayoutGuide type="bottom" id="bSh-Ot-9uy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yqv-C7-Hvl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0224" translatesAutoresizingMaskIntoConstraints="NO" id="VMC-gC-5ZW">
+                                <rect key="frame" x="-8" y="20" width="328" height="548"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lh9-2K-nq3">
+                                <rect key="frame" x="287" y="20" width="33" height="31"/>
+                                <state key="normal" title="X "/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="rZp-PX-DYh" eventType="touchUpInside" id="SYQ-z8-jVD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oys-DQ-Z89" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1556" y="1797"/>
+        </scene>
+        <!--내 게임-->
+        <scene sceneID="YL7-5q-Gnc">
+            <objects>
+                <viewController id="Iqr-RK-Jf8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BWZ-my-Ekl"/>
+                        <viewControllerLayoutGuide type="bottom" id="kuG-f7-9fa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="swy-Da-pVE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0213" translatesAutoresizingMaskIntoConstraints="NO" id="aP9-5Y-UDU">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52L-DH-2FX">
+                                <rect key="frame" x="12" y="74" width="296" height="94"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="aBL-Ca-NUQ" kind="show" id="Fq6-j6-UZO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="내 게임" id="MA0-eg-caO">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="q4F-Py-Kna"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7RF-pd-yFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2054" y="1113"/>
+        </scene>
+        <!--메뉴-->
+        <scene sceneID="8M8-pF-Bc2">
+            <objects>
+                <viewController id="xL1-GP-SDS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B8L-ZZ-M8B"/>
+                        <viewControllerLayoutGuide type="bottom" id="LzG-eg-ETs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kaa-Za-viK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0219" translatesAutoresizingMaskIntoConstraints="NO" id="uwY-ux-xHu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pII-LZ-Hnn">
+                                <rect key="frame" x="0.0" y="232" width="208" height="35"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="Iqr-RK-Jf8" kind="show" id="Gu3-JJ-rr3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메뉴" id="kSw-MU-lJp"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gjq-g0-Zn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1667" y="1113"/>
+        </scene>
+        <!--게임 참여-->
+        <scene sceneID="bxE-aW-VJx">
+            <objects>
+                <viewController id="own-3w-TyI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pes-XW-J3f"/>
+                        <viewControllerLayoutGuide type="bottom" id="NpF-Az-kwb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="38s-EN-l1s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0216" translatesAutoresizingMaskIntoConstraints="NO" id="gXP-e2-UIl">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCZ-m6-LcX">
+                                <rect key="frame" x="189" y="341" width="44" height="44"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="6aR-kc-wMC" kind="show" id="iLf-wL-g3p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 참여" id="gIj-JN-Um8">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="6h5-pm-3Vb"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Avb-ie-z27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3665" y="1108"/>
+        </scene>
+        <!--게임 참여-->
+        <scene sceneID="HUQ-lB-7qd">
+            <objects>
+                <viewController id="6aR-kc-wMC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gst-4K-bfe"/>
+                        <viewControllerLayoutGuide type="bottom" id="LPo-VW-pSb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BQ6-wd-TP5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-7y-Cau">
+                                <rect key="frame" x="0.0" y="173" width="320" height="50"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="qs3-k9-mkh" kind="show" id="qtb-0A-Kyj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0220" translatesAutoresizingMaskIntoConstraints="NO" id="IF8-7j-aFa">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="게임 참여" id="AqZ-6l-rRu">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="IJA-Y6-ill"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N58-KL-Mp4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4044" y="1102"/>
+        </scene>
+        <!--게임 생성-->
+        <scene sceneID="RDV-en-FuW">
+            <objects>
+                <viewController id="y2h-oI-Jbs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zcm-9q-MCU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z6U-fK-MUC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HBE-hY-iVy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0216" translatesAutoresizingMaskIntoConstraints="NO" id="S3x-7g-CPo">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJ6-Yw-DFQ">
+                                <rect key="frame" x="0.0" y="72" width="158" height="39"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="dcH-Dd-OA4" kind="show" id="Fc9-JS-iBt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 생성" id="Uek-vy-vp8">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="pGA-Ub-nzM"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8T-Qd-pTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2827" y="1797"/>
+        </scene>
+        <!--게임 생성-->
+        <scene sceneID="QIQ-zb-PtQ">
+            <objects>
+                <viewController id="UzF-AV-KBJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DjO-ue-0bx"/>
+                        <viewControllerLayoutGuide type="bottom" id="rZ7-Ah-fUC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PG6-Qi-ZzC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0212" translatesAutoresizingMaskIntoConstraints="NO" id="Aq5-UJ-SYU">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiH-1Y-RSl">
+                                <rect key="frame" x="161" y="81" width="159" height="28"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="y2h-oI-Jbs" kind="show" id="ThY-Iy-Ii9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 생성" id="aQk-pe-pQf">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="zcq-Bq-f0u"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OmH-4Y-nbJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3271" y="1797"/>
+        </scene>
+        <!--게임 생성-->
+        <scene sceneID="QwN-Wf-bR1">
+            <objects>
+                <viewController id="eNC-p5-Hfr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Is6-4z-FRS"/>
+                        <viewControllerLayoutGuide type="bottom" id="144-k5-YJ9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="61f-ET-RE1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0222" translatesAutoresizingMaskIntoConstraints="NO" id="FOT-G8-Dxv">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09s-wv-Fcj">
+                                <rect key="frame" x="90" y="218" width="210" height="42"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="lqp-78-Zkb" kind="show" id="DO8-U5-85e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zg0-6A-0I1">
+                                <rect key="frame" x="274" y="85" width="41" height="30"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="rZp-PX-DYh" kind="modal" id="6z3-9Y-DXZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 생성" id="x4g-Ye-5mn">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="Bss-IS-7d4"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="amY-Vx-fjm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2012" y="1797"/>
+        </scene>
+        <!--게임 생성-->
+        <scene sceneID="Pdz-Au-blg">
+            <objects>
+                <viewController id="lqp-78-Zkb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="awy-oh-ceg"/>
+                        <viewControllerLayoutGuide type="bottom" id="bTb-TI-5zP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cK5-H8-Flu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0225" translatesAutoresizingMaskIntoConstraints="NO" id="GAi-qk-Eea">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XhO-Ox-UG6">
+                                <rect key="frame" x="20" y="238" width="211" height="29"/>
+                                <segments>
+                                    <segment title="3on3"/>
+                                    <segment title="4on4"/>
+                                    <segment title="5on5"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full court" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1S-PG-e3c">
+                                <rect key="frame" x="20" y="177" width="91" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5c-1w-hvd">
+                                <rect key="frame" x="251" y="177" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 생성" id="gWH-CA-Bno">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="mxB-Fi-zrO"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="0Ou-ys-jOo">
+                            <connections>
+                                <segue destination="zgl-eE-wvo" kind="show" id="2rq-1L-sve"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaO-dH-YsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2012" y="2509"/>
+        </scene>
+        <!--내 게임-->
+        <scene sceneID="voQ-pg-Zhj">
+            <objects>
+                <viewController id="zgl-eE-wvo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lTc-c5-dHe"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ie-yk-p7a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gIh-Nq-uHX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0223" translatesAutoresizingMaskIntoConstraints="NO" id="16U-ce-mQL">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="내 게임" id="EDY-zm-LKG">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="XLj-p6-Zdp">
+                            <connections>
+                                <segue destination="YSJ-ZT-da6" kind="show" id="AnG-Dw-Xcq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-xk-rKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2415" y="2509"/>
+        </scene>
+        <!--게임 참여-->
+        <scene sceneID="gYs-Cj-3L3">
+            <objects>
+                <viewController id="Zk2-am-tOn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f57-KU-9c1"/>
+                        <viewControllerLayoutGuide type="bottom" id="H2I-XH-Gz4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mag-AX-s85">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kt-Qf-b4T">
+                                <rect key="frame" x="159" y="76" width="156" height="30"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="own-3w-TyI" kind="show" id="6sV-ac-BKm"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0212" translatesAutoresizingMaskIntoConstraints="NO" id="22t-k8-6mV">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 참여" id="KaC-vI-bEy">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="rOQ-m6-rK9"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wNb-hI-kBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3266" y="1113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gPV-nS-d2l">
+            <objects>
+                <viewController id="zZV-MN-jmk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gdz-z0-PbC"/>
+                        <viewControllerLayoutGuide type="bottom" id="bpv-M8-mCY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xi8-nz-zcc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0218" translatesAutoresizingMaskIntoConstraints="NO" id="f7M-1e-if8">
+                                <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-04-c6a">
+                                <rect key="frame" x="269" y="87" width="43" height="39"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="zZV-MN-jmk" eventType="touchUpInside" id="Qkj-aa-BAa"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-8u-IdF">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="내 게임" id="qzc-Za-WtY"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17o-sg-uMH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2742" y="386"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eN5-j0-j9k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uyb-uO-tBb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hLn-xK-7ij">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Rz-h7-Eyg" kind="relationship" relationship="rootViewController" id="sWL-IJ-ygK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNX-J8-2sO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1462" y="386"/>
+        </scene>
+        <!--메뉴-->
+        <scene sceneID="1ay-nL-DHF">
+            <objects>
+                <viewController id="6aP-it-GXD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Fa-Ex-PfS"/>
+                        <viewControllerLayoutGuide type="bottom" id="iFz-1c-xdQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="byL-pb-PB3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0219" translatesAutoresizingMaskIntoConstraints="NO" id="b3C-QS-iej">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEB-gM-Tq4">
+                                <rect key="frame" x="0.0" y="144" width="208" height="45"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="Zk2-am-tOn" kind="show" id="qT9-2C-OgI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메뉴" id="CIi-YU-pG8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9i0-E8-vad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2827" y="1113"/>
+        </scene>
+        <!--메뉴-->
+        <scene sceneID="z82-et-Yxt">
+            <objects>
+                <viewController id="IIh-r3-eIa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O0s-cH-bSk"/>
+                        <viewControllerLayoutGuide type="bottom" id="hRl-4g-VNf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NJ0-e4-XNy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0219" translatesAutoresizingMaskIntoConstraints="NO" id="oN3-xO-HPv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2g-j3-I1y">
+                                <rect key="frame" x="0.0" y="187" width="208" height="46"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="UzF-AV-KBJ" kind="show" id="35x-cz-pNk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메뉴" id="KFy-cj-L7v"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIW-FF-h1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3665" y="1797"/>
+        </scene>
+        <!--메뉴-->
+        <scene sceneID="xBn-MI-0og">
+            <objects>
+                <viewController id="YSJ-ZT-da6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lyq-5I-YwW"/>
+                        <viewControllerLayoutGuide type="bottom" id="cSh-Kp-Uww"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pe0-va-XJQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0219" translatesAutoresizingMaskIntoConstraints="NO" id="xBd-Ub-4Iz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df5-ga-mbC">
+                                <rect key="frame" x="0.0" y="149" width="208" height="38"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epf-BD-hdX">
+                                <rect key="frame" x="0.0" y="187" width="208" height="46"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkM-Nz-5DB">
+                                <rect key="frame" x="0.0" y="232" width="208" height="35"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAI-8F-xLo">
+                                <rect key="frame" x="79" y="63" width="124" height="30"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="4hI-4a-VRF" kind="show" id="OpU-Qe-yOb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMZ-PM-bf0">
+                                <rect key="frame" x="0.0" y="96" width="208" height="45"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메뉴" id="nAL-qu-r7M"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cX0-or-kMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2827" y="2509"/>
+        </scene>
+        <!--내 게임-->
+        <scene sceneID="k21-AS-kgU">
+            <objects>
+                <viewController id="aBL-Ca-NUQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yN2-FI-q0n"/>
+                        <viewControllerLayoutGuide type="bottom" id="ews-wK-LEn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OaJ-V5-x2c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0217" translatesAutoresizingMaskIntoConstraints="NO" id="RrH-ce-5zg">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="내 게임" id="F5b-uD-wLv">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="nfI-F7-3zB">
+                            <connections>
+                                <segue destination="6aP-it-GXD" kind="show" id="9CF-4X-etl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zhn-JR-Z0T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2410" y="1113"/>
+        </scene>
+        <!--내 게임-->
+        <scene sceneID="31k-27-tXE">
+            <objects>
+                <viewController id="qs3-k9-mkh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zme-c0-2Fs"/>
+                        <viewControllerLayoutGuide type="bottom" id="QlM-Sq-D4n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jFO-S5-GdT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0217" translatesAutoresizingMaskIntoConstraints="NO" id="g7E-hI-BLR">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="내 게임" id="sY6-jm-PNX">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="GFp-Je-ROT">
+                            <connections>
+                                <segue destination="IIh-r3-eIa" kind="show" id="ULy-ub-KzN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sF-4D-b4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4044" y="1797"/>
+        </scene>
+        <!--게임 생성-->
+        <scene sceneID="E8H-ku-bmR">
+            <objects>
+                <viewController id="dcH-Dd-OA4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vk-jc-QH7"/>
+                        <viewControllerLayoutGuide type="bottom" id="3rJ-gU-9Rg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o3x-ho-7AX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0212" translatesAutoresizingMaskIntoConstraints="NO" id="ny6-A7-GBj">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXQ-ry-X2R">
+                                <rect key="frame" x="161" y="81" width="159" height="28"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZR-a8-8dp">
+                                <rect key="frame" x="10" y="409" width="274" height="42"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="eNC-p5-Hfr" kind="show" id="8dn-yV-jOI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="게임 생성" id="4R7-oz-HgF">
+                        <barButtonItem key="leftBarButtonItem" title="slide" id="Zgc-qf-CKQ"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H3T-TF-AOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2415" y="1797"/>
+        </scene>
+        <!--메뉴-->
+        <scene sceneID="SMd-W6-qc4">
+            <objects>
+                <viewController id="lln-dz-4nm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wyp-lI-1OQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="mh7-xa-U5G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8BC-3k-cBB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0219" translatesAutoresizingMaskIntoConstraints="NO" id="wFc-HM-jbz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfr-4J-jN3">
+                                <rect key="frame" x="0.0" y="149" width="208" height="38"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqv-x9-RXo">
+                                <rect key="frame" x="0.0" y="187" width="208" height="46"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5a3-6M-Bt8">
+                                <rect key="frame" x="0.0" y="232" width="208" height="35"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyy-Gb-qm9">
+                                <rect key="frame" x="79" y="63" width="124" height="30"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC9-nZ-XgF">
+                                <rect key="frame" x="0.0" y="96" width="208" height="45"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메뉴" id="ZsM-SR-IbW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXj-Xk-P4Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3654" y="2509"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0212" width="1129" height="1768"/>
+        <image name="IMG_0213" width="1134" height="1761"/>
+        <image name="IMG_0214" width="1133" height="1762"/>
+        <image name="IMG_0215" width="1133" height="1761"/>
+        <image name="IMG_0216" width="1139" height="1752"/>
+        <image name="IMG_0217" width="1135" height="1759"/>
+        <image name="IMG_0218" width="1136" height="1757"/>
+        <image name="IMG_0219" width="1068" height="1868"/>
+        <image name="IMG_0220" width="1131" height="1765"/>
+        <image name="IMG_0222" width="1134" height="1761"/>
+        <image name="IMG_0223" width="1139" height="1753"/>
+        <image name="IMG_0224" width="1134" height="1760"/>
+        <image name="IMG_0225" width="1144" height="1745"/>
+    </resources>
+</document>

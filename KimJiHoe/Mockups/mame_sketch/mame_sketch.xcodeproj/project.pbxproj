@@ -9,19 +9,39 @@
 /* Begin PBXBuildFile section */
 		1C46ECC21C3E1D4300D72468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46ECC11C3E1D4300D72468 /* AppDelegate.swift */; };
 		1C46ECC41C3E1D4300D72468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46ECC31C3E1D4300D72468 /* ViewController.swift */; };
-		1C46ECC71C3E1D4300D72468 /* Mygreatapp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46ECC51C3E1D4300D72468 /* Mygreatapp.storyboard */; };
+		1C46ECC71C3E1D4300D72468 /* Mame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46ECC51C3E1D4300D72468 /* Mame.storyboard */; };
 		1C46ECC91C3E1D4300D72468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C46ECC81C3E1D4300D72468 /* Assets.xcassets */; };
 		1C46ECCC1C3E1D4300D72468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46ECCA1C3E1D4300D72468 /* LaunchScreen.storyboard */; };
+		1CD923231C4DD3D9006B4877 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD923221C4DD3D9006B4877 /* PilotPlant.framework */; };
+		1CD923251C4DD3E4006B4877 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD923241C4DD3E4006B4877 /* UIViewController+Navigation.swift */; };
+		1CD923261C4DD3ED006B4877 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD923221C4DD3D9006B4877 /* PilotPlant.framework */; };
+		1CD923271C4DD3ED006B4877 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD923221C4DD3D9006B4877 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CFBE5DE1C4CB7F800A4F5DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1CD923271C4DD3ED006B4877 /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1C46ECBE1C3E1D4300D72468 /* mame_sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mame_sketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C46ECC11C3E1D4300D72468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C46ECC31C3E1D4300D72468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C46ECC61C3E1D4300D72468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mygreatapp.storyboard; sourceTree = "<group>"; };
+		1C46ECC61C3E1D4300D72468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mame.storyboard; sourceTree = "<group>"; };
 		1C46ECC81C3E1D4300D72468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C46ECCB1C3E1D4300D72468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C46ECCD1C3E1D4300D72468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD923221C4DD3D9006B4877 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		1CD923241C4DD3E4006B4877 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD923231C4DD3D9006B4877 /* PilotPlant.framework in Frameworks */,
+				1CD923261C4DD3ED006B4877 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +60,7 @@
 		1C46ECB51C3E1D4300D72468 = {
 			isa = PBXGroup;
 			children = (
+				1CD923221C4DD3D9006B4877 /* PilotPlant.framework */,
 				1C46ECC01C3E1D4300D72468 /* mame_sketch */,
 				1C46ECBF1C3E1D4300D72468 /* Products */,
 			);
@@ -55,8 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				1C46ECC11C3E1D4300D72468 /* AppDelegate.swift */,
+				1CD923241C4DD3E4006B4877 /* UIViewController+Navigation.swift */,
 				1C46ECC31C3E1D4300D72468 /* ViewController.swift */,
-				1C46ECC51C3E1D4300D72468 /* Mygreatapp.storyboard */,
+				1C46ECC51C3E1D4300D72468 /* Mame.storyboard */,
 				1C46ECC81C3E1D4300D72468 /* Assets.xcassets */,
 				1C46ECCA1C3E1D4300D72468 /* LaunchScreen.storyboard */,
 				1C46ECCD1C3E1D4300D72468 /* Info.plist */,
@@ -74,6 +98,7 @@
 				1C46ECBA1C3E1D4300D72468 /* Sources */,
 				1C46ECBB1C3E1D4300D72468 /* Frameworks */,
 				1C46ECBC1C3E1D4300D72468 /* Resources */,
+				1CFBE5DE1C4CB7F800A4F5DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +149,7 @@
 			files = (
 				1C46ECCC1C3E1D4300D72468 /* LaunchScreen.storyboard in Resources */,
 				1C46ECC91C3E1D4300D72468 /* Assets.xcassets in Resources */,
-				1C46ECC71C3E1D4300D72468 /* Mygreatapp.storyboard in Resources */,
+				1C46ECC71C3E1D4300D72468 /* Mame.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD923251C4DD3E4006B4877 /* UIViewController+Navigation.swift in Sources */,
 				1C46ECC41C3E1D4300D72468 /* ViewController.swift in Sources */,
 				1C46ECC21C3E1D4300D72468 /* AppDelegate.swift in Sources */,
 			);
@@ -143,12 +169,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1C46ECC51C3E1D4300D72468 /* Mygreatapp.storyboard */ = {
+		1C46ECC51C3E1D4300D72468 /* Mame.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1C46ECC61C3E1D4300D72468 /* Base */,
 			);
-			name = Mygreatapp.storyboard;
+			name = Mame.storyboard;
 			sourceTree = "<group>";
 		};
 		1C46ECCA1C3E1D4300D72468 /* LaunchScreen.storyboard */ = {
@@ -249,6 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/mame_sketch",
+				);
 				INFOPLIST_FILE = mame_sketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.matchmaker.mame-sketch";
@@ -260,6 +291,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/mame_sketch",
+				);
 				INFOPLIST_FILE = mame_sketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.matchmaker.mame-sketch";
