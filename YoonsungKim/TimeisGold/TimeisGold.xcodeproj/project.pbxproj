@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95394C1E1C4F21ED00DB4DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95394C1D1C4F21ED00DB4DFA /* AppDelegate.swift */; };
+		95394C201C4F21ED00DB4DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95394C1F1C4F21ED00DB4DFA /* ViewController.swift */; };
+		95394C231C4F21ED00DB4DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95394C211C4F21ED00DB4DFA /* Main.storyboard */; };
+		95394C251C4F21ED00DB4DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95394C241C4F21ED00DB4DFA /* Assets.xcassets */; };
+		95394C281C4F21ED00DB4DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95394C261C4F21ED00DB4DFA /* LaunchScreen.storyboard */; };
+		95394C331C4F21ED00DB4DFA /* TimeisGoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95394C321C4F21ED00DB4DFA /* TimeisGoldTests.swift */; };
+		95394C3E1C4F21ED00DB4DFA /* TimeisGoldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95394C3D1C4F21ED00DB4DFA /* TimeisGoldUITests.swift */; };
+		95394C4C1C4F220700DB4DFA /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95394C4B1C4F220700DB4DFA /* PilotPlant.framework */; };
+		95394C4D1C4F222400DB4DFA /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95394C4B1C4F220700DB4DFA /* PilotPlant.framework */; };
+		95394C4E1C4F222400DB4DFA /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95394C4B1C4F220700DB4DFA /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95394C511C4F222B00DB4DFA /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95394C501C4F222B00DB4DFA /* UIViewController+Navigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95394C2F1C4F21ED00DB4DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95394C121C4F21ED00DB4DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95394C191C4F21ED00DB4DFA;
+			remoteInfo = TimeisGold;
+		};
+		95394C3A1C4F21ED00DB4DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95394C121C4F21ED00DB4DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95394C191C4F21ED00DB4DFA;
+			remoteInfo = TimeisGold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95394C4F1C4F222400DB4DFA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				95394C4E1C4F222400DB4DFA /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95394C1A1C4F21ED00DB4DFA /* TimeisGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeisGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95394C1D1C4F21ED00DB4DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95394C1F1C4F21ED00DB4DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95394C221C4F21ED00DB4DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95394C241C4F21ED00DB4DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95394C271C4F21ED00DB4DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95394C291C4F21ED00DB4DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95394C2E1C4F21ED00DB4DFA /* TimeisGoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeisGoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95394C321C4F21ED00DB4DFA /* TimeisGoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeisGoldTests.swift; sourceTree = "<group>"; };
+		95394C341C4F21ED00DB4DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95394C391C4F21ED00DB4DFA /* TimeisGoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeisGoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95394C3D1C4F21ED00DB4DFA /* TimeisGoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeisGoldUITests.swift; sourceTree = "<group>"; };
+		95394C3F1C4F21ED00DB4DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95394C4B1C4F220700DB4DFA /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		95394C501C4F222B00DB4DFA /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95394C171C4F21ED00DB4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95394C4C1C4F220700DB4DFA /* PilotPlant.framework in Frameworks */,
+				95394C4D1C4F222400DB4DFA /* PilotPlant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C2B1C4F21ED00DB4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C361C4F21ED00DB4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95394C111C4F21ED00DB4DFA = {
+			isa = PBXGroup;
+			children = (
+				95394C4B1C4F220700DB4DFA /* PilotPlant.framework */,
+				95394C1C1C4F21ED00DB4DFA /* TimeisGold */,
+				95394C311C4F21ED00DB4DFA /* TimeisGoldTests */,
+				95394C3C1C4F21ED00DB4DFA /* TimeisGoldUITests */,
+				95394C1B1C4F21ED00DB4DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95394C1B1C4F21ED00DB4DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95394C1A1C4F21ED00DB4DFA /* TimeisGold.app */,
+				95394C2E1C4F21ED00DB4DFA /* TimeisGoldTests.xctest */,
+				95394C391C4F21ED00DB4DFA /* TimeisGoldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95394C1C1C4F21ED00DB4DFA /* TimeisGold */ = {
+			isa = PBXGroup;
+			children = (
+				95394C1D1C4F21ED00DB4DFA /* AppDelegate.swift */,
+				95394C501C4F222B00DB4DFA /* UIViewController+Navigation.swift */,
+				95394C1F1C4F21ED00DB4DFA /* ViewController.swift */,
+				95394C211C4F21ED00DB4DFA /* Main.storyboard */,
+				95394C241C4F21ED00DB4DFA /* Assets.xcassets */,
+				95394C261C4F21ED00DB4DFA /* LaunchScreen.storyboard */,
+				95394C291C4F21ED00DB4DFA /* Info.plist */,
+			);
+			path = TimeisGold;
+			sourceTree = "<group>";
+		};
+		95394C311C4F21ED00DB4DFA /* TimeisGoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				95394C321C4F21ED00DB4DFA /* TimeisGoldTests.swift */,
+				95394C341C4F21ED00DB4DFA /* Info.plist */,
+			);
+			path = TimeisGoldTests;
+			sourceTree = "<group>";
+		};
+		95394C3C1C4F21ED00DB4DFA /* TimeisGoldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95394C3D1C4F21ED00DB4DFA /* TimeisGoldUITests.swift */,
+				95394C3F1C4F21ED00DB4DFA /* Info.plist */,
+			);
+			path = TimeisGoldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95394C191C4F21ED00DB4DFA /* TimeisGold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95394C421C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGold" */;
+			buildPhases = (
+				95394C161C4F21ED00DB4DFA /* Sources */,
+				95394C171C4F21ED00DB4DFA /* Frameworks */,
+				95394C181C4F21ED00DB4DFA /* Resources */,
+				95394C4F1C4F222400DB4DFA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeisGold;
+			productName = TimeisGold;
+			productReference = 95394C1A1C4F21ED00DB4DFA /* TimeisGold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95394C2D1C4F21ED00DB4DFA /* TimeisGoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95394C451C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGoldTests" */;
+			buildPhases = (
+				95394C2A1C4F21ED00DB4DFA /* Sources */,
+				95394C2B1C4F21ED00DB4DFA /* Frameworks */,
+				95394C2C1C4F21ED00DB4DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95394C301C4F21ED00DB4DFA /* PBXTargetDependency */,
+			);
+			name = TimeisGoldTests;
+			productName = TimeisGoldTests;
+			productReference = 95394C2E1C4F21ED00DB4DFA /* TimeisGoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95394C381C4F21ED00DB4DFA /* TimeisGoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95394C481C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGoldUITests" */;
+			buildPhases = (
+				95394C351C4F21ED00DB4DFA /* Sources */,
+				95394C361C4F21ED00DB4DFA /* Frameworks */,
+				95394C371C4F21ED00DB4DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95394C3B1C4F21ED00DB4DFA /* PBXTargetDependency */,
+			);
+			name = TimeisGoldUITests;
+			productName = TimeisGoldUITests;
+			productReference = 95394C391C4F21ED00DB4DFA /* TimeisGoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95394C121C4F21ED00DB4DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SpiderPig;
+				TargetAttributes = {
+					95394C191C4F21ED00DB4DFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					95394C2D1C4F21ED00DB4DFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 95394C191C4F21ED00DB4DFA;
+					};
+					95394C381C4F21ED00DB4DFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 95394C191C4F21ED00DB4DFA;
+					};
+				};
+			};
+			buildConfigurationList = 95394C151C4F21ED00DB4DFA /* Build configuration list for PBXProject "TimeisGold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95394C111C4F21ED00DB4DFA;
+			productRefGroup = 95394C1B1C4F21ED00DB4DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95394C191C4F21ED00DB4DFA /* TimeisGold */,
+				95394C2D1C4F21ED00DB4DFA /* TimeisGoldTests */,
+				95394C381C4F21ED00DB4DFA /* TimeisGoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95394C181C4F21ED00DB4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95394C281C4F21ED00DB4DFA /* LaunchScreen.storyboard in Resources */,
+				95394C251C4F21ED00DB4DFA /* Assets.xcassets in Resources */,
+				95394C231C4F21ED00DB4DFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C2C1C4F21ED00DB4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C371C4F21ED00DB4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95394C161C4F21ED00DB4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95394C511C4F222B00DB4DFA /* UIViewController+Navigation.swift in Sources */,
+				95394C201C4F21ED00DB4DFA /* ViewController.swift in Sources */,
+				95394C1E1C4F21ED00DB4DFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C2A1C4F21ED00DB4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95394C331C4F21ED00DB4DFA /* TimeisGoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394C351C4F21ED00DB4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95394C3E1C4F21ED00DB4DFA /* TimeisGoldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95394C301C4F21ED00DB4DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95394C191C4F21ED00DB4DFA /* TimeisGold */;
+			targetProxy = 95394C2F1C4F21ED00DB4DFA /* PBXContainerItemProxy */;
+		};
+		95394C3B1C4F21ED00DB4DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95394C191C4F21ED00DB4DFA /* TimeisGold */;
+			targetProxy = 95394C3A1C4F21ED00DB4DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95394C211C4F21ED00DB4DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95394C221C4F21ED00DB4DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95394C261C4F21ED00DB4DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95394C271C4F21ED00DB4DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95394C401C4F21ED00DB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95394C411C4F21ED00DB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95394C431C4F21ED00DB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TimeisGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95394C441C4F21ED00DB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TimeisGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95394C461C4F21ED00DB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeisGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeisGold.app/TimeisGold";
+			};
+			name = Debug;
+		};
+		95394C471C4F21ED00DB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeisGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeisGold.app/TimeisGold";
+			};
+			name = Release;
+		};
+		95394C491C4F21ED00DB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeisGoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeisGold;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		95394C4A1C4F21ED00DB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeisGoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeisGoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeisGold;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95394C151C4F21ED00DB4DFA /* Build configuration list for PBXProject "TimeisGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95394C401C4F21ED00DB4DFA /* Debug */,
+				95394C411C4F21ED00DB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95394C421C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95394C431C4F21ED00DB4DFA /* Debug */,
+				95394C441C4F21ED00DB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95394C451C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95394C461C4F21ED00DB4DFA /* Debug */,
+				95394C471C4F21ED00DB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95394C481C4F21ED00DB4DFA /* Build configuration list for PBXNativeTarget "TimeisGoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95394C491C4F21ED00DB4DFA /* Debug */,
+				95394C4A1C4F21ED00DB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95394C121C4F21ED00DB4DFA /* Project object */;
+}
