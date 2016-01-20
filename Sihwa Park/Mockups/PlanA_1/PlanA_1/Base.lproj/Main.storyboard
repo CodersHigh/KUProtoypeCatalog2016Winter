@@ -34,7 +34,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM1-dp-t0c">
                                 <rect key="frame" x="224" y="87" width="76" height="44"/>
                                 <connections>
-                                    <segue destination="xFQ-h9-59G" kind="show" animates="NO" id="Iq6-kd-40m"/>
+                                    <segue destination="zy0-9I-yLx" kind="show" id="XpF-ew-PVT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,48 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="786" y="68"/>
-        </scene>
-        <!--incheon-->
-        <scene sceneID="7yi-jR-LlK">
-            <objects>
-                <viewController title="incheon" id="xFQ-h9-59G" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="srY-pB-T1R"/>
-                        <viewControllerLayoutGuide type="bottom" id="yCa-EK-pvZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0Xe-Wj-IBP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="SRS-Ir-NqA">
-                                <rect key="frame" x="-16" y="-21" width="352" height="589"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxA-dT-e2F">
-                                <rect key="frame" x="269" y="86" width="46" height="50"/>
-                                <connections>
-                                    <segue destination="fQe-8P-1Jj" kind="show" animates="NO" id="DZg-7E-zrQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bch-uE-4xM">
-                                <rect key="frame" x="20" y="477" width="95" height="40"/>
-                            </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="인천 국제 공항" translatesAutoresizingMaskIntoConstraints="NO" id="Yln-nZ-rha">
-                                <rect key="frame" x="12" y="86" width="257" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="PlanA" id="VUX-nh-qvQ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="T4i-B3-nLH"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wQ1-eQ-Mxo"/>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h4r-Sx-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1174" y="68"/>
+            <point key="canvasLocation" x="784" y="68"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="Tsv-rj-N1e">
@@ -127,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FY0-Vk-xYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="804"/>
+            <point key="canvasLocation" x="973" y="811"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="Svm-My-LZK">
@@ -177,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fX2-7t-cd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="804"/>
+            <point key="canvasLocation" x="1359" y="817"/>
         </scene>
         <!--PlanC-->
         <scene sceneID="dqC-r9-qSB">
@@ -416,16 +375,228 @@
             </objects>
             <point key="canvasLocation" x="2650" y="1026"/>
         </scene>
+        <!--PlanA-->
+        <scene sceneID="bdS-pp-AuH">
+            <objects>
+                <viewController id="zy0-9I-yLx" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="16e-WR-RGn"/>
+                        <viewControllerLayoutGuide type="bottom" id="U8j-M0-Gcd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mN1-Ag-2jm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="incheon_screenshot" translatesAutoresizingMaskIntoConstraints="NO" id="ySC-Lp-UIJ">
+                                <rect key="frame" x="-359" y="36" width="973" height="586"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="인천 국제 공항" translatesAutoresizingMaskIntoConstraints="NO" id="tOV-Vh-asT">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghq-43-6gO">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxU-EW-jnP">
+                                <rect key="frame" x="132" y="299" width="46" height="41"/>
+                                <connections>
+                                    <segue destination="kLr-9m-4x6" kind="show" animates="NO" id="h0m-FV-zKS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnm-Hq-1dY">
+                                <rect key="frame" x="261" y="299" width="46" height="41"/>
+                                <connections>
+                                    <segue destination="GM3-vz-HaI" kind="popoverPresentation" identifier="popoverSegue" popoverAnchorView="wnm-Hq-1dY" id="ykC-yY-Hks">
+                                        <popoverArrowDirection key="popoverArrowDirection" down="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="NVv-xs-ebj">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Jif-8k-okT"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="J9v-EA-fhR"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWj-O8-6xs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207" y="68"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="mDN-OO-WiJ">
+            <objects>
+                <viewController id="kLr-9m-4x6" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vtb-eg-oWs"/>
+                        <viewControllerLayoutGuide type="bottom" id="itd-VA-yYB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5n8-J6-zpz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="incheon_screenshot" translatesAutoresizingMaskIntoConstraints="NO" id="Y41-hK-XgW">
+                                <rect key="frame" x="-359" y="36" width="973" height="586"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="인천 국제 공항" translatesAutoresizingMaskIntoConstraints="NO" id="T1Z-gg-osJ">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxw-R8-OXD">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMP-d2-zh9">
+                                <rect key="frame" x="0.0" y="457" width="320" height="116"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="f3I-xu-FxS">
+                                        <rect key="frame" x="8" y="54" width="304" height="29"/>
+                                        <segments>
+                                            <segment title="출발지로"/>
+                                            <segment title="다음 목적지로"/>
+                                            <segment title="도착지로"/>
+                                        </segments>
+                                        <connections>
+                                            <segue destination="o8L-vI-lnL" kind="show" animates="NO" id="gLh-qH-hK0"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59E-gh-bfx">
+                                        <rect key="frame" x="159" y="16" width="22" height="22"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인천 국제 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-pS-lRI">
+                                        <rect key="frame" x="14" y="8" width="183" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="nY4-nG-iPa">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="4sc-pX-2cl"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="SCz-y4-Mfx"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCa-bh-WnF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1619" y="68"/>
+        </scene>
+        <!--Popover Host Scene-->
+        <scene sceneID="nDk-P0-gb8">
+            <objects>
+                <viewController id="GM3-vz-HaI" customClass="PopoverHostScene" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hhT-Hv-2ja"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKj-wR-jSE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="znP-T6-22S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X4l-GF-kO2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Gw1-D2-rz5">
+                                        <rect key="frame" x="8" y="54" width="304" height="29"/>
+                                        <segments>
+                                            <segment title="출발지로"/>
+                                            <segment title="다음 목적지로"/>
+                                            <segment title="도착지로"/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGs-FC-jJd">
+                                        <rect key="frame" x="159" y="16" width="22" height="22"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인천 국제 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xW-Ft-VV5">
+                                        <rect key="frame" x="14" y="8" width="183" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="320" height="116"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="116"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vK-8i-1cq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="-334"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="DHE-ZZ-EZw">
+            <objects>
+                <viewController id="o8L-vI-lnL" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nZv-Gz-Yob"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vag-ug-n9j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VHo-RT-gB2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="incheon_screenshot" translatesAutoresizingMaskIntoConstraints="NO" id="EZF-tL-l0d">
+                                <rect key="frame" x="-359" y="36" width="973" height="586"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="인천 국제 공항" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-GK-deb">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dv-4a-eqS">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                                <connections>
+                                    <segue destination="fQe-8P-1Jj" kind="show" id="Bm3-RF-laR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHd-XB-GnE">
+                                <rect key="frame" x="132" y="299" width="46" height="41"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp1-hR-Zmg">
+                                <rect key="frame" x="261" y="299" width="46" height="41"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="ZNs-ZH-yMS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="vpV-zi-kAc"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hbc-rL-bJZ"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylM-gZ-GqU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2049" y="131"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1" width="456" height="720"/>
-        <image name="2" width="470" height="720"/>
         <image name="3" width="472" height="720"/>
         <image name="3_1" width="472" height="720"/>
         <image name="4_1" width="484" height="720"/>
         <image name="5" width="473" height="720"/>
         <image name="6" width="1038" height="1600"/>
         <image name="file_tabbar" width="120" height="90"/>
+        <image name="incheon_screenshot" width="839" height="464"/>
         <image name="menu_tabbar" width="124" height="83"/>
         <image name="new_map_modal" width="1064" height="1632"/>
         <image name="plan_b_home" width="1016" height="1642"/>
