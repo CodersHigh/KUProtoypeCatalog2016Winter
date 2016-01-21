@@ -48,95 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784" y="68"/>
-        </scene>
-        <!--PlanA-->
-        <scene sceneID="Tsv-rj-N1e">
-            <objects>
-                <viewController id="fQe-8P-1Jj" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zfI-pZ-Q7F"/>
-                        <viewControllerLayoutGuide type="bottom" id="jeK-z0-mRi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="eKR-C5-qBh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="3_1" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-ny-Uwy">
-                                <rect key="frame" x="-13" y="-68" width="346" height="678"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BI-bg-Mg7">
-                                <rect key="frame" x="124" y="478" width="73" height="30"/>
-                                <connections>
-                                    <segue destination="ebT-xz-4kd" kind="show" animates="NO" id="qkv-7V-vbJ"/>
-                                </connections>
-                            </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="파리 에펠탑" translatesAutoresizingMaskIntoConstraints="NO" id="v9L-gy-WgN">
-                                <rect key="frame" x="7" y="83" width="257" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="PlanA" id="dCR-iO-cDp">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Q42-k4-6ci"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ciu-Xs-u1y"/>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FY0-Vk-xYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="973" y="811"/>
-        </scene>
-        <!--PlanA-->
-        <scene sceneID="Svm-My-LZK">
-            <objects>
-                <viewController id="ebT-xz-4kd" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DqN-m5-lOm"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rlj-gP-K7h"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pTf-NS-X3c">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB2-nv-c0U">
-                                <rect key="frame" x="15" y="33" width="53" height="40"/>
-                            </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ai-OT-AXG">
-                                <rect key="frame" x="6" y="83" width="252" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="SeR-Ih-xkY">
-                                <rect key="frame" x="-13" y="-90" width="346" height="719"/>
-                            </imageView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="파리 에펠탑" translatesAutoresizingMaskIntoConstraints="NO" id="gxJ-aM-Qn6">
-                                <rect key="frame" x="6" y="83" width="257" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmS-Ak-f8O">
-                                <rect key="frame" x="34" y="341" width="46" height="30"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="PlanA" id="ZBp-g2-MeB">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="aXC-WV-bjs">
-                            <connections>
-                                <segue destination="LWN-qn-D0N" kind="show" id="miI-w6-Aol"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Yjq-Ja-z4c">
-                            <connections>
-                                <segue destination="e93-yn-6WX" kind="presentation" id="2UH-nk-fP5"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fX2-7t-cd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1359" y="817"/>
+            <point key="canvasLocation" x="762" y="73"/>
         </scene>
         <!--PlanC-->
         <scene sceneID="dqC-r9-qSB">
@@ -164,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4A-hB-kQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2459" y="1701"/>
+            <point key="canvasLocation" x="2725" y="1918"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VjH-1L-GQc">
@@ -178,20 +90,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="new_map_modal" translatesAutoresizingMaskIntoConstraints="NO" id="Yrh-dA-fgp">
-                                <rect key="frame" x="-28" y="-273" width="360" height="1033"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ihZ-8f-A3e">
-                                <rect key="frame" x="89" y="229" width="200" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYD-tw-lxx">
                                 <rect key="frame" x="154" y="313" width="85" height="52"/>
                                 <connections>
                                     <action selector="modalDismiss:" destination="e93-yn-6WX" eventType="touchUpInside" id="Abo-mi-hEg"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wBq-Z7-2PX">
+                                <rect key="frame" x="9" y="172" width="301" height="223"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBc-GC-VdB">
+                                        <rect key="frame" x="20" y="100" width="69" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kJ1-AO-Mu0">
+                                        <rect key="frame" x="84" y="104" width="208" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="8ra-Uf-iny">
+                                        <rect key="frame" x="33" y="166" width="238" height="29"/>
+                                        <segments>
+                                            <segment title="확인"/>
+                                            <segment title="취소"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="modalDismiss:" destination="e93-yn-6WX" eventType="valueChanged" id="oCf-TS-1A8"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="새 지도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNb-dz-tQK">
+                                        <rect key="frame" x="118" y="39" width="69" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -199,44 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T6h-nd-Wi8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1274" y="1514"/>
-        </scene>
-        <!--PlanA-->
-        <scene sceneID="G4P-d4-Z82">
-            <objects>
-                <viewController id="LWN-qn-D0N" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Ca-9i-1uS"/>
-                        <viewControllerLayoutGuide type="bottom" id="KiZ-Fp-0iK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6RC-cR-aBF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="4_1" translatesAutoresizingMaskIntoConstraints="NO" id="rbH-wT-qRm">
-                                <rect key="frame" x="-19" y="-56" width="359" height="645"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="qXQ-ST-DXq">
-                                <rect key="frame" x="-1" y="487" width="321" height="86"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GG4-zu-fso">
-                                <rect key="frame" x="104" y="493" width="103" height="75"/>
-                                <connections>
-                                    <segue destination="VTS-VA-WoX" kind="show" id="yCc-nP-Gkz"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" selectedImage="menu_tabbar" systemItem="mostViewed" id="uHl-Qo-dUM"/>
-                    <navigationItem key="navigationItem" title="PlanA" id="fvU-rt-5K7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="rTr-dd-GN0"/>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iu0-ot-j42" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1749" y="978"/>
+            <point key="canvasLocation" x="1199" y="1450"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZqF-dr-STX">
@@ -282,26 +187,19 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCD-Jb-ORR">
                                 <rect key="frame" x="173" y="410" width="81" height="44"/>
-                                <connections>
-                                    <segue destination="bg6-sW-dsW" kind="show" identifier="ModalDismissPush" id="BtL-ad-3JF"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="oBN-7y-4lW"/>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="oBN-7y-4lW"/>
                     <navigationItem key="navigationItem" title="List" id="Go1-9v-DHO">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QKW-Ag-SZS">
-                            <connections>
-                                <segue destination="ZlE-tZ-eIX" kind="presentation" id="xNQ-jQ-8SK"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QKW-Ag-SZS"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPn-oP-23f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2203" y="824"/>
+            <point key="canvasLocation" x="2281" y="1516"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="Wki-k9-SGW">
@@ -315,22 +213,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-rL-LkC">
-                                <rect key="frame" x="-75" y="-64" width="422" height="664"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-oC-UbF">
                                 <rect key="frame" x="0.0" y="488" width="321" height="86"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qph-ZY-r0V">
                                 <rect key="frame" x="212" y="493" width="103" height="75"/>
-                                <connections>
-                                    <segue destination="U3j-R6-aqd" kind="show" id="tRy-cK-MAo"/>
-                                </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-rL-LkC">
+                                <rect key="frame" x="-6" y="-78" width="422" height="664"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="file_tabbar" systemItem="topRated" id="b2a-pA-dLo"/>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="b2a-pA-dLo"/>
                     <navigationItem key="navigationItem" title="PlanA" id="yLh-Jb-Tjt">
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="1se-MT-0O4"/>
                     </navigationItem>
@@ -338,42 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAr-dl-xX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1899" y="1637"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="pi4-gH-Rsb">
-            <objects>
-                <viewController id="ZlE-tZ-eIX" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NVf-mc-htF"/>
-                        <viewControllerLayoutGuide type="bottom" id="aae-Z6-H7W"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ni2-56-qAO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="new_map_modal" translatesAutoresizingMaskIntoConstraints="NO" id="7SL-3D-50d">
-                                <rect key="frame" x="-28" y="-273" width="360" height="1033"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ni2-PW-6bz">
-                                <rect key="frame" x="89" y="229" width="200" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ocv-a0-rND">
-                                <rect key="frame" x="46" y="316" width="102" height="47"/>
-                                <connections>
-                                    <action selector="modalDismissPush:" destination="ZlE-tZ-eIX" eventType="touchUpInside" id="GVu-hb-Pc4"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MJY-TB-6pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2650" y="1026"/>
+            <point key="canvasLocation" x="1886" y="1534"/>
         </scene>
         <!--PlanA-->
         <scene sceneID="bdS-pp-AuH">
@@ -472,7 +332,7 @@
                                         <rect key="frame" x="159" y="16" width="22" height="22"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인천 국제 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-pS-lRI">
-                                        <rect key="frame" x="14" y="8" width="183" height="38"/>
+                                        <rect key="frame" x="14" y="8" width="137" height="38"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -565,7 +425,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dv-4a-eqS">
                                 <rect key="frame" x="224" y="87" width="76" height="44"/>
                                 <connections>
-                                    <segue destination="fQe-8P-1Jj" kind="show" id="Bm3-RF-laR"/>
+                                    <segue destination="gtP-Hz-eOj" kind="show" id="2uT-Mj-EGv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHd-XB-GnE">
@@ -587,19 +447,528 @@
             </objects>
             <point key="canvasLocation" x="2049" y="131"/>
         </scene>
+        <!--PlanA-->
+        <scene sceneID="AOy-Hq-iqV">
+            <objects>
+                <viewController id="gtP-Hz-eOj" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uVU-b0-1y4"/>
+                        <viewControllerLayoutGuide type="bottom" id="9AO-84-bs0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ws4-J7-zpy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paris_screenshot" translatesAutoresizingMaskIntoConstraints="NO" id="umd-VP-4fY">
+                                <rect key="frame" x="-339" y="40" width="998" height="569"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="에펠 탑" translatesAutoresizingMaskIntoConstraints="NO" id="mWB-ez-4mE">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUo-nJ-hqw">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzQ-z5-Mfo">
+                                <rect key="frame" x="137" y="303" width="46" height="43"/>
+                                <connections>
+                                    <segue destination="F5Z-C8-09j" kind="show" animates="NO" id="rrc-ke-d0E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="Gvc-6f-Qq3">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="YX5-Km-gpE"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="eHe-bU-g1T"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfb-Xw-bin" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="747"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="d0r-A5-aKM">
+            <objects>
+                <viewController id="F5Z-C8-09j" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ow3-c1-4UL"/>
+                        <viewControllerLayoutGuide type="bottom" id="IYI-4J-QlR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HUQ-Db-ujl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paris_screenshot" translatesAutoresizingMaskIntoConstraints="NO" id="w6T-48-eap">
+                                <rect key="frame" x="-339" y="40" width="998" height="569"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="에펠 탑" translatesAutoresizingMaskIntoConstraints="NO" id="8e7-RU-Dqg">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AQ-fg-wnH">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBo-ld-TAk">
+                                <rect key="frame" x="0.0" y="452" width="320" height="116"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="YPX-Hb-09Q">
+                                        <rect key="frame" x="8" y="54" width="304" height="29"/>
+                                        <segments>
+                                            <segment title="출발지로"/>
+                                            <segment title="다음 목적지로"/>
+                                            <segment title="도착지로"/>
+                                        </segments>
+                                        <connections>
+                                            <segue destination="ARc-ub-vS5" kind="show" animates="NO" id="EEk-Qd-KCQ"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="에펠 탑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCW-hO-vhF">
+                                        <rect key="frame" x="14" y="8" width="79" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAc-25-o2i">
+                                        <rect key="frame" x="94" y="16" width="22" height="22"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="WK4-mW-5uT">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Njp-q8-af9"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uVQ-Y3-2SG"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJZ-Mv-uIg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063" y="747"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="1P9-lI-RR0">
+            <objects>
+                <viewController id="ARc-ub-vS5" customClass="ViewController" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rdW-37-xNZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dpx-uW-Oqf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wfz-61-Gi2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paris_screenshot_red_line" translatesAutoresizingMaskIntoConstraints="NO" id="Q54-Eg-yFY">
+                                <rect key="frame" x="-339" y="40" width="998" height="569"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="에펠 탑" translatesAutoresizingMaskIntoConstraints="NO" id="iGj-a5-wd1">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXY-4v-9Gv">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="9VY-3p-MsB">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="4CD-Ek-o33">
+                            <connections>
+                                <segue destination="CXd-IC-GeJ" kind="show" id="pw4-5W-9pr"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="06R-eK-dOp">
+                            <connections>
+                                <segue destination="e93-yn-6WX" kind="presentation" id="Iyu-V1-02k"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sK-nB-dby" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1442" y="755"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="Ah5-jx-8PS">
+            <objects>
+                <tableViewController id="Axe-2Q-9SN" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DsQ-Tz-f4e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="대한민국, 서울" id="Xhq-uv-8lr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="i3y-k2-CKe">
+                                        <rect key="frame" x="0.0" y="92" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i3y-k2-CKe" id="jDS-sZ-WgF">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인천 국제 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qn-ms-uMf">
+                                                    <rect key="frame" x="25" y="11" width="99" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcn-rk-4Sd">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9J5-lE-gBO">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="프랑스, 파리" id="Ghz-oI-ey7">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="ASu-GS-oVh">
+                                        <rect key="frame" x="0.0" y="165" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ASu-GS-oVh" id="ru8-8C-ORs">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="샤를 드골 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etY-5z-obv">
+                                                    <rect key="frame" x="25" y="11" width="185" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afZ-bD-8uo">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytk-yT-Saa">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="d1H-fM-dej">
+                                        <rect key="frame" x="0.0" y="210" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d1H-fM-dej" id="2i7-ej-CkZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="에펠 탑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdE-2f-Rfx">
+                                                    <rect key="frame" x="25" y="11" width="176" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7N-Iq-bYR">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh1-Ge-C4g">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="oNV-y0-5Ko">
+                                        <rect key="frame" x="0.0" y="255" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oNV-y0-5Ko" id="GOb-ua-fpe">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="에투알 개선문" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obl-OS-zXb">
+                                                    <rect key="frame" x="25" y="11" width="163" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CM-9d-XIa">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYl-yb-ztr">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="dud-on-s0Y">
+                                        <rect key="frame" x="0.0" y="300" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dud-on-s0Y" id="vNq-Za-Q8S">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="샹젤리제" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDH-A3-0bh">
+                                                    <rect key="frame" x="25" y="11" width="180" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZP-dl-TGC">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyq-he-qaR">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="RyO-NT-Evm">
+                                        <rect key="frame" x="0.0" y="345" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RyO-NT-Evm" id="usi-4j-f9G">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="루브르 박물관" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJJ-78-SOl">
+                                                    <rect key="frame" x="25" y="11" width="173" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpK-iy-s7t">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdl-Gf-HP6">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="Q7t-UI-y0V">
+                                        <rect key="frame" x="0.0" y="390" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q7t-UI-y0V" id="55R-ov-EdE">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="파리 노트르담 대성당" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvt-vm-6cG">
+                                                    <rect key="frame" x="25" y="11" width="169" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sb0-qd-Ocy">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCQ-g7-qlr">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="영국, 런던" id="o2N-J3-pqE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="PML-1O-fq5">
+                                        <rect key="frame" x="0.0" y="463" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PML-1O-fq5" id="rxJ-nj-bEM">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="샤를 드골 공항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Br4-Ov-nqa">
+                                                    <rect key="frame" x="25" y="11" width="185" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCX-CO-Plb">
+                                                    <rect key="frame" x="276" y="6" width="31" height="32"/>
+                                                    <state key="normal" title="trash_utton" image="trash_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHj-9H-7PS">
+                                                    <rect key="frame" x="225" y="4" width="39" height="35"/>
+                                                    <state key="normal" title="+_button" image="+_icon"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Axe-2Q-9SN" id="DxE-2H-ukK"/>
+                            <outlet property="delegate" destination="Axe-2Q-9SN" id="9jH-sT-uYe"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="WQj-we-0LX"/>
+                    <navigationItem key="navigationItem" title="PlanA" id="1oI-8R-sGO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="7ei-pB-xrb"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yHo-xl-9Yc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2432" y="831"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="XwM-dd-plv">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CXd-IC-GeJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MrU-bz-ElN">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Axe-2Q-9SN" kind="relationship" relationship="viewControllers" id="xWO-XO-SYE"/>
+                        <segue destination="VTS-VA-WoX" kind="relationship" relationship="viewControllers" id="Uq5-pg-qk3"/>
+                        <segue destination="U3j-R6-aqd" kind="relationship" relationship="viewControllers" id="S2S-VA-DvW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cH4-nh-kJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1945" y="824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="n43-u4-iGO">
+            <objects>
+                <viewController id="QiA-wJ-pbb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thJ-nB-BI9"/>
+                        <viewControllerLayoutGuide type="bottom" id="m6u-w2-kkI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="utc-CI-ldd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tft-Ge-rdH">
+                                <rect key="frame" x="154" y="313" width="85" height="52"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="QiA-wJ-pbb" eventType="touchUpInside" id="2z6-6S-gSl"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hCD-DC-rU1">
+                                <rect key="frame" x="9" y="172" width="301" height="223"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fE2-Af-25E">
+                                        <rect key="frame" x="20" y="100" width="69" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWp-XB-5Sf">
+                                        <rect key="frame" x="84" y="104" width="208" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Fga-NI-r5K">
+                                        <rect key="frame" x="33" y="166" width="238" height="29"/>
+                                        <segments>
+                                            <segment title="확인"/>
+                                            <segment title="취소"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="modalDismiss:" destination="QiA-wJ-pbb" eventType="valueChanged" id="Wcf-5Y-pxD"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="새 지도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKd-hd-hNZ">
+                                        <rect key="frame" x="118" y="39" width="69" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6F-zj-m2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2767" y="1281"/>
+        </scene>
+        <!--PlanA-->
+        <scene sceneID="Bz6-tq-rZn">
+            <objects>
+                <viewController id="Iq2-wF-wqK" customClass="MapScene" customModule="PlanA_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="25O-6R-8b9"/>
+                        <viewControllerLayoutGuide type="bottom" id="UXK-57-btl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b2u-97-1WF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="h1e-eb-4fr">
+                                <rect key="frame" x="-9" y="-49" width="339" height="644"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wzu-VS-uKM">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </mapView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kk2-lA-cWG">
+                                <rect key="frame" x="13" y="87" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SB-u1-CjO">
+                                <rect key="frame" x="224" y="87" width="76" height="44"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlanA" id="sWp-iv-LXa">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Zs3-t7-dpX"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8d2-Hc-giW"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w4U-SX-zIt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2813" y="2083"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="+_icon" width="31" height="31"/>
         <image name="1" width="456" height="720"/>
-        <image name="3" width="472" height="720"/>
-        <image name="3_1" width="472" height="720"/>
-        <image name="4_1" width="484" height="720"/>
         <image name="5" width="473" height="720"/>
         <image name="6" width="1038" height="1600"/>
-        <image name="file_tabbar" width="120" height="90"/>
         <image name="incheon_screenshot" width="839" height="464"/>
-        <image name="menu_tabbar" width="124" height="83"/>
-        <image name="new_map_modal" width="1064" height="1632"/>
+        <image name="paris_screenshot" width="881" height="467"/>
+        <image name="paris_screenshot_red_line" width="881" height="467"/>
         <image name="plan_b_home" width="1016" height="1642"/>
         <image name="tabbar" width="430" height="104"/>
+        <image name="trash_icon" width="32" height="32"/>
     </resources>
 </document>
