@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		ED36EF081C4DF46A007DB319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36EF071C4DF46A007DB319 /* AppDelegate.swift */; };
 		ED36EF0A1C4DF46A007DB319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36EF091C4DF46A007DB319 /* ViewController.swift */; };
-		ED36EF0D1C4DF46A007DB319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED36EF0B1C4DF46A007DB319 /* Main.storyboard */; };
 		ED36EF0F1C4DF46A007DB319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED36EF0E1C4DF46A007DB319 /* Assets.xcassets */; };
 		ED36EF121C4DF46A007DB319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED36EF101C4DF46A007DB319 /* LaunchScreen.storyboard */; };
 		ED36EF1D1C4DF46A007DB319 /* randomGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36EF1C1C4DF46A007DB319 /* randomGameTests.swift */; };
@@ -17,6 +16,7 @@
 		ED36EF3E1C4DF89F007DB319 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED36EF3C1C4DF897007DB319 /* PilotPlant.framework */; };
 		ED36EF3F1C4DF89F007DB319 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED36EF3C1C4DF897007DB319 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED36EF411C4DF8AB007DB319 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36EF401C4DF8AB007DB319 /* UIViewController+Navigation.swift */; };
+		ED371FFA1C55E38D008D320E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED371FF81C55E38D008D320E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 		ED36EF041C4DF46A007DB319 /* randomGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED36EF071C4DF46A007DB319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED36EF091C4DF46A007DB319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED36EF0C1C4DF46A007DB319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED36EF0E1C4DF46A007DB319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED36EF111C4DF46A007DB319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED36EF131C4DF46A007DB319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		ED36EF291C4DF46A007DB319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED36EF3C1C4DF897007DB319 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
 		ED36EF401C4DF8AB007DB319 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		ED371FF91C55E38D008D320E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +118,10 @@
 		ED36EF061C4DF46A007DB319 /* randomGame */ = {
 			isa = PBXGroup;
 			children = (
+				ED371FF81C55E38D008D320E /* Main.storyboard */,
 				ED36EF071C4DF46A007DB319 /* AppDelegate.swift */,
 				ED36EF091C4DF46A007DB319 /* ViewController.swift */,
 				ED36EF401C4DF8AB007DB319 /* UIViewController+Navigation.swift */,
-				ED36EF0B1C4DF46A007DB319 /* Main.storyboard */,
 				ED36EF0E1C4DF46A007DB319 /* Assets.xcassets */,
 				ED36EF101C4DF46A007DB319 /* LaunchScreen.storyboard */,
 				ED36EF131C4DF46A007DB319 /* Info.plist */,
@@ -252,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED371FFA1C55E38D008D320E /* Main.storyboard in Resources */,
 				ED36EF121C4DF46A007DB319 /* LaunchScreen.storyboard in Resources */,
 				ED36EF0F1C4DF46A007DB319 /* Assets.xcassets in Resources */,
-				ED36EF0D1C4DF46A007DB319 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,20 +317,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ED36EF0B1C4DF46A007DB319 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED36EF0C1C4DF46A007DB319 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED36EF101C4DF46A007DB319 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ED36EF111C4DF46A007DB319 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED371FF81C55E38D008D320E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED371FF91C55E38D008D320E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +516,7 @@
 				ED36EF2E1C4DF46A007DB319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED36EF2F1C4DF46A007DB319 /* Build configuration list for PBXNativeTarget "randomGameTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				ED36EF311C4DF46A007DB319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED36EF321C4DF46A007DB319 /* Build configuration list for PBXNativeTarget "randomGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				ED36EF341C4DF46A007DB319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
