@@ -15,5 +15,5 @@
     각자의 교통 방편으로 중간 지점까지 얼마나 걸리는지 계산. 원하는 약속의 테마??에 적합한 약속 장소(카페, 음식점 등)가 그 근처에 있는지 확인. 
     있으면 장소 추천. 없을 경우 한쪽에게 조금 더 가까운 지점 찾기. 합리적 장소 찾을 때까지 과정 반복.
 #### Mockup Sketch
-<img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/1.jpeg" alt="Completry Screenshot" height="250" >
-#####
+<img src="https://raw.githubusercontent.com/HeanOwl/KUProtoypeCatalog2016Winter/master/LEE%20CHAE%20YOON/mockup/스크린샷%202016-01-26%20오전%2011.14.50.png" height="250" >
+##### PRESENTATION
