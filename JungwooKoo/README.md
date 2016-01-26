@@ -37,3 +37,6 @@ Fitpair는 근력 운동(헬스, 크로스핏, 보디빌딩 등)에 관심이 �
 키, 몸무게, 운동 강도 등을 직접 적어 검색할 수 있다
 4. 부위
 운동하는 부위를 정하여 검색할 수 있다
+
+###이미지
+<img src="https://raw.githubusercontent.com/jungwookoo/KUProtoypeCatalog2016Winter/master/JungwooKoo/Mockups/image/스크린샷%202016-01-26%20오전%2011.01.22.png">
