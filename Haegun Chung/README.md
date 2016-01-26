@@ -30,6 +30,9 @@
 1. 이벤트와 호스트를 브라우징하여 서로를 연결 시켜줌
 2. #이벤트, #호스트, #메시지
 
+###Sketches
+<img src="https://github.com/atssajhg/mock-sketches/blob/master/앍.스케치%201.png?raw=true" alt="Completry Screenshot" height="250" > <img src="https://github.com/atssajhg/mock-sketches/blob/master/앍.스케치%202.png?raw=true" alt="Completry Screenshot" height="250" > <img src="https://github.com/atssajhg/mock-sketches/blob/master/앍.스케치%203.png?raw=true" alt="Completry Screenshot" height="250" >
+
 ##끄적끄적
 how to differentiate from other matchmaking, dating apps
 - not about people, about activities (can’t help leading to dating though)
