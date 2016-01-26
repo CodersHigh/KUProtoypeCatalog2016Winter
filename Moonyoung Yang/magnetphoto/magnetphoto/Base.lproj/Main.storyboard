@@ -207,9 +207,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veL-7U-boK">
-                                <rect key="frame" x="0.0" y="163" width="92" height="101"/>
+                                <rect key="frame" x="0.0" y="163" width="84" height="101"/>
                                 <connections>
                                     <segue destination="miI-3l-HU9" kind="presentation" id="9ML-OX-9fg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="En1-JA-1cq">
+                                <rect key="frame" x="92" y="163" width="93" height="101"/>
+                                <connections>
+                                    <segue destination="bIw-dc-tSl" kind="presentation" id="ds5-O8-J1R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uwg-9N-kW4">
+                                <rect key="frame" x="281" y="20" width="46" height="48"/>
+                                <connections>
+                                    <segue destination="gEF-Rb-5qV" kind="show" id="lHh-Xt-F9S"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -356,6 +368,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="scene12" translatesAutoresizingMaskIntoConstraints="NO" id="F0x-Wl-dii">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PP-HT-dup">
+                                <rect key="frame" x="186" y="173" width="98" height="90"/>
+                                <connections>
+                                    <segue destination="9W3-S8-8U6" kind="show" id="2nM-um-xfs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -363,7 +381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQd-Qr-2H1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697.5" y="2239.5"/>
+            <point key="canvasLocation" x="1449.5" y="2239.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fhI-9n-FqP">
@@ -380,6 +398,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="scene13" translatesAutoresizingMaskIntoConstraints="NO" id="mza-cp-fFm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4U-bg-80Y">
+                                <rect key="frame" x="187" y="263" width="89" height="87"/>
+                                <connections>
+                                    <segue destination="jf1-NJ-Z4G" kind="show" id="zA7-h0-bd5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -387,7 +411,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F3i-4Y-dnE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2095.5" y="2239.5"/>
+            <point key="canvasLocation" x="1867.5" y="2239.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hrP-5Y-9ej">
@@ -404,6 +428,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="scene14" translatesAutoresizingMaskIntoConstraints="NO" id="f3X-aE-wMt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWK-c0-cYT">
+                                <rect key="frame" x="281" y="261" width="94" height="94"/>
+                                <connections>
+                                    <segue destination="dIj-j9-9Fz" kind="show" id="3D7-9e-Izp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -411,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="He3-Fr-AC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2489.5" y="2239.5"/>
+            <point key="canvasLocation" x="2285.5" y="2239.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nlp-e1-7zy">
@@ -428,6 +458,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="scene15" translatesAutoresizingMaskIntoConstraints="NO" id="UoP-XP-ILR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NS-Iw-85x">
+                                <rect key="frame" x="281" y="267" width="101" height="150"/>
+                                <connections>
+                                    <segue destination="1N5-wH-78C" kind="show" id="HH5-im-ghG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -435,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwx-cv-kVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2891.5" y="2239.5"/>
+            <point key="canvasLocation" x="2701.5" y="2239.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7BE-ca-RKj">
@@ -452,6 +488,12 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="scene16" translatesAutoresizingMaskIntoConstraints="NO" id="qc9-DY-yuo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a30-rm-sb7">
+                                <rect key="frame" x="0.0" y="20" width="46" height="51"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="1N5-wH-78C" eventType="touchUpInside" id="JD3-mq-J8z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -459,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1wr-oD-e5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3291.5" y="2239.5"/>
+            <point key="canvasLocation" x="3105.5" y="2239.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="23W-gr-0K2">
@@ -483,7 +525,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="paK-JB-b97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3689.5" y="959.5"/>
+            <point key="canvasLocation" x="3231.5" y="951.5"/>
         </scene>
     </scenes>
     <resources>
