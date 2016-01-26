@@ -263,7 +263,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="프랑스, 독일 여행" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhC-xS-ysx">
-                                                    <rect key="frame" x="19" y="16" width="101" height="40"/>
+                                                    <rect key="frame" x="19" y="16" width="206" height="40"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -296,6 +296,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="List" id="4HX-MW-ZNW">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="LDs-3b-7XI"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Z4r-X2-kDK">
                             <connections>
                                 <segue destination="QiA-wJ-pbb" kind="presentation" id="RE6-OD-rTf"/>
@@ -333,6 +334,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="PlanA" id="yLh-Jb-Tjt">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="s1s-4j-v0h"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="1se-MT-0O4"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -934,6 +936,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="PlanA" id="bbO-X3-Zue">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="y9l-r2-Mxe"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="ecm-x4-vZ0"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -1388,6 +1391,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="PlanA" id="Dc7-aS-Obb">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="mKw-PU-LQo"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="3vb-ae-sY2"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
