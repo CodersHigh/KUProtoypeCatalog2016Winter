@@ -24,4 +24,4 @@ ADS
 <img src = "https://github.com/gusrn0505/KUProtoypeCatalog2016Winter/blob/master/Hyeongu%20Kang/Mockup/MA(make%20appointment)%20app%20복사본/스크린샷/스크린샷%202016-01-26%20오전%2010.28.31.png?raw=true"[width = "150" height= "300"/>
 
 ### Prototype Video
-<iframe width="854" height="480" src="https://www.youtube.com/embed/5ZqxcAK--3M" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/5ZqxcAK--3M" frameborder="0" allowfullscreen></iframe>
