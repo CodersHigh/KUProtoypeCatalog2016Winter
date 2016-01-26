@@ -29,4 +29,6 @@ GoldenTime 는 시간 관리 어플이다.
  -  문의하기를 이용해 개발자에게 문의 
 
 
-##
+## Screen Shot
+
+<img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/1.jpeg" alt="Completry Screenshot" height="250" >
