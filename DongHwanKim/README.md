@@ -25,17 +25,20 @@
 
 ### Prototype(Sample movie)
 
+![prototype Screentshot1](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/prototype1.png?raw=true)
+![prototype Screentshot2](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/prototype2.png?raw=true)
+![prototype Screentshot3](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/prototype3.png?raw=true)
 
 
 ### Screenshots
-![makeYourPush Screenshot1]()
-![makeYourPush Screenshot2]()
-![makeYourPush Screenshot3]()
+![makeYourPush Screenshot1](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/sampleproto1.png?raw=true)
+![makeYourPush Screenshot2](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/sampleproto2.png?raw=true)
+![makeYourPush Screenshot3](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/sampleproto3.png?raw=true)
 
 
 
 ### Storyboard
-
+![mainStoryBoard Screenshot](https://github.com/transienteternity/KUProtoypeCatalog2016Winter/blob/master/DongHwanKim/Mockup/images/mainstoryboard.png?raw=true)
 
 
 ## 김동환
