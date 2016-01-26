@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="m3l-sz-G69">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--슬롯 머신-->
+        <scene sceneID="Jbg-cA-n3e">
+            <objects>
+                <viewController id="I9b-wM-XGT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Odp-cH-pBa"/>
+                        <viewControllerLayoutGuide type="bottom" id="l5F-JN-dCb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kht-us-hWe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="슬롯 머신" translatesAutoresizingMaskIntoConstraints="NO" id="Vdv-IG-7Uy">
+                                <rect key="frame" x="0.0" y="43" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wg-vM-UMR">
+                                <rect key="frame" x="144" y="601" width="86" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="조건 설정"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="슬롯 머신" id="1WA-0X-n6o">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="4Wn-Fg-9u4">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="2bL-ng-6it">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="SBSApplicationShortcutIcon_Shuffle@3x_2x" id="bsz-IT-uBy">
+                            <connections>
+                                <action selector="navigationBackToRoot:" destination="I9b-wM-XGT" id="agt-s9-Y0L"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acJ-M4-0pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327.5" y="2144.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="s1q-4Y-cBE">
+            <objects>
+                <navigationController id="Vzd-yi-PVU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="UxE-Aq-aV7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cjK-Ow-mQD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="v51-Ix-v4L">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="mBh-Wz-VoW" kind="relationship" relationship="rootViewController" id="BJk-8E-IDg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agg-5C-dEu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519.5" y="137.5"/>
+        </scene>
+        <!--돌려돌려 돌림판-->
+        <scene sceneID="KH3-4L-iaj">
+            <objects>
+                <viewController id="mBh-Wz-VoW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9fy-S7-YIO"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Lk-tJ-obs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HpI-9X-9Ux">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="돌림판-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qvg-a2-UVB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0s-AN-Duy">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items/>
+                            </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nb-Xf-OVe">
+                                <rect key="frame" x="45" y="143" width="298" height="333"/>
+                                <connections>
+                                    <segue destination="PQg-KL-ehv" kind="presentation" id="E73-ZX-5bk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3K-NS-tW7">
+                                <rect key="frame" x="151" y="563" width="87" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="조건 설정"/>
+                                <connections>
+                                    <segue destination="xh0-7e-pqp" kind="presentation" id="EW1-uV-XLJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="랜덤게임" image="SBSApplicationShortcutIcon_Shuffle@3x_2x" id="IlA-Yi-8n1"/>
+                    <navigationItem key="navigationItem" title="돌려돌려 돌림판" id="8iJ-QB-iGI">
+                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="gwS-mw-VTG">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="t5E-7I-hmT">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="CGT-2T-3jP" kind="presentation" id="PW5-Ya-Bgh"/>
+                                </connections>
+                            </button>
+                            <color key="tintColor" red="0.71600948949999998" green="0.029079221490000001" blue="0.064391757630000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="SBSApplicationShortcutIcon_Shuffle@3x_2x" id="Nti-oe-HNN">
+                            <connections>
+                                <segue destination="JYi-Bd-16N" kind="modal" modalTransitionStyle="crossDissolve" id="GEq-KQ-ZcD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGh-Wa-I7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959.5" y="153.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="euE-D5-Ob3">
+            <objects>
+                <viewController id="PQg-KL-ehv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Igp-cn-ZZe"/>
+                        <viewControllerLayoutGuide type="bottom" id="nbQ-e7-dYN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XLg-Re-aMi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="돌림판 결과" translatesAutoresizingMaskIntoConstraints="NO" id="p7q-nP-4JE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbU-eX-mJI">
+                                <rect key="frame" x="147" y="610" width="81" height="26"/>
+                                <state key="normal" title="다시 골라줘"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="PQg-KL-ehv" eventType="touchUpInside" id="qJK-Vi-DRS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXe-X9-xY3">
+                                <rect key="frame" x="153" y="564" width="69" height="30"/>
+                                <state key="normal" title="자세히 보기"/>
+                                <connections>
+                                    <segue destination="YL5-RL-UPp" kind="presentation" id="WIa-yi-qSM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nIF-nb-4cp"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d95-MF-kZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464.5" y="153.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aML-Za-Shr">
+            <objects>
+                <viewController id="xh0-7e-pqp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zko-pi-NNU"/>
+                        <viewControllerLayoutGuide type="bottom" id="ETZ-L3-NmM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k1Z-ep-HKU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyV-KI-I85">
+                                <rect key="frame" x="132" y="94" width="104" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="조건 설정"/>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrE-Om-tsu">
+                                <rect key="frame" x="12" y="161" width="56" height="30"/>
+                                <state key="normal" title="식사 종류"/>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVo-md-PGu">
+                                <rect key="frame" x="12" y="238" width="56" height="30"/>
+                                <state key="normal" title="식사 유형"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gRf-Tw-GxR">
+                                <rect key="frame" x="81" y="162" width="277" height="29"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="한식"/>
+                                    <segment title="양식"/>
+                                    <segment title="중식"/>
+                                    <segment title="기타"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Beg-ES-Lmm">
+                                <rect key="frame" x="79" y="317" width="283" height="29"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="~5천원"/>
+                                    <segment title="~1만원"/>
+                                    <segment title="1~2만원"/>
+                                    <segment title="그 이상"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dqK-Xe-QxC">
+                                <rect key="frame" x="81" y="238" width="282" height="29"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="혼밥"/>
+                                    <segment title="데이트"/>
+                                    <segment title="밥약"/>
+                                    <segment title="야식"/>
+                                    <segment title="2차"/>
+                                    <segment title="카페"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aza-Fi-yvF">
+                                <rect key="frame" x="303" y="39" width="41" height="37"/>
+                                <state key="normal" image="x자"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="xh0-7e-pqp" eventType="touchUpInside" id="BAo-dE-lkI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmK-nb-trM">
+                                <rect key="frame" x="20" y="315" width="39" height="30"/>
+                                <state key="normal" title="가격대"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lmS-ge-SIf">
+                                <rect key="frame" x="80" y="395" width="282" height="29"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="가까운"/>
+                                    <segment title="적당"/>
+                                    <segment title="멀어도 됨"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-8k-hj6">
+                                <rect key="frame" x="25" y="393" width="30" height="30"/>
+                                <state key="normal" title="위치"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsC-ez-4yU">
+                                <rect key="frame" x="161" y="557" width="65" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="확인"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="xh0-7e-pqp" eventType="touchUpInside" id="cdM-OP-fKd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Hj-Gz-cWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1235.5" y="923.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="37F-s3-PoP">
+            <objects>
+                <viewController id="YL5-RL-UPp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IzP-rV-BuZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="p0M-NZ-P6K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IHY-gb-Fgk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="온반 선택창" translatesAutoresizingMaskIntoConstraints="NO" id="muc-p9-qsV">
+                                <rect key="frame" x="-3" y="-12" width="380" height="692"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4z4-cb-N8a">
+                                <rect key="frame" x="336" y="272" width="29" height="28"/>
+                                <state key="normal" image="x자">
+                                    <color key="titleShadowColor" red="0.71600948949999998" green="0.029079221490000001" blue="0.064391757630000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="YL5-RL-UPp" eventType="touchUpInside" id="31u-t1-gsG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ynk-2K-5Kp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890.5" y="-233.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="7BD-Uh-ukL">
+            <objects>
+                <navigationController id="rYj-Kz-psH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Kyl-uc-PTV"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ruf-v1-F7y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UZr-UN-vJo" kind="relationship" relationship="rootViewController" id="GMS-3O-iWU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A0B-Ca-y8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.5" y="-589.5"/>
+        </scene>
+        <!--식당 목록-->
+        <scene sceneID="Qyh-Tk-q80">
+            <objects>
+                <viewController id="UZr-UN-vJo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qzB-TU-cob"/>
+                        <viewControllerLayoutGuide type="bottom" id="ioo-gS-Cwg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pnz-sa-Ax5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="식당 목록" translatesAutoresizingMaskIntoConstraints="NO" id="T80-L0-ipA">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S08-86-mG6">
+                                <rect key="frame" x="0.0" y="64" width="173" height="183"/>
+                                <connections>
+                                    <segue destination="YL5-RL-UPp" kind="presentation" id="7J8-M4-Fq3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="png-Fa-32U"/>
+                    <navigationItem key="navigationItem" title="식당 목록" id="yp0-Pw-UGO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uyh-v7-M6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998.5" y="-589.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zSt-9A-doc">
+            <objects>
+                <navigationController id="HM0-aQ-wHX" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="200-tK-H9f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="I9b-wM-XGT" kind="relationship" relationship="rootViewController" id="VnO-6J-yQB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPO-fo-O8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433.5" y="1343.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JQ5-Lj-iW0">
+            <objects>
+                <navigationController id="JYi-Bd-16N" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jua-1p-KyA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lBn-rh-bWJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HmI-nN-sKb" kind="relationship" relationship="rootViewController" id="WhS-pn-Ano"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMI-33-XBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.5" y="923.5"/>
+        </scene>
+        <!--맛집 LOTTO-->
+        <scene sceneID="8ze-V2-HOm">
+            <objects>
+                <viewController id="HmI-nN-sKb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x7s-15-Rdc"/>
+                        <viewControllerLayoutGuide type="bottom" id="E6U-Lt-RSY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iho-VN-hlt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="로또" translatesAutoresizingMaskIntoConstraints="NO" id="UoF-wF-Ouu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoH-w5-LHF">
+                                <rect key="frame" x="149" y="579" width="87" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="조건 설정"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="맛집 LOTTO" id="mBc-y7-9Hd">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="iLx-kB-m6J">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="aX4-Hf-nSU">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="SBSApplicationShortcutIcon_Shuffle@3x_2x" id="flL-ap-LnR">
+                            <connections>
+                                <segue destination="HM0-aQ-wHX" kind="presentation" modalTransitionStyle="crossDissolve" id="GCv-fM-2rU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rzc-ul-TBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="568.5" y="967.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ffM-9A-Vem">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="m3l-sz-G69" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Z7q-DR-hnD"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ypN-Wi-mww">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Vzd-yi-PVU" kind="relationship" relationship="viewControllers" id="2SZ-xc-Tx4"/>
+                        <segue destination="rYj-Kz-psH" kind="relationship" relationship="viewControllers" id="DPj-Ue-rnh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EhG-XH-lZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="-273"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="prD-g0-CIW">
+            <objects>
+                <viewController id="CGT-2T-3jP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gAI-sU-xHd"/>
+                        <viewControllerLayoutGuide type="bottom" id="XlO-fa-AgX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L2Z-j0-0uE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="설명" translatesAutoresizingMaskIntoConstraints="NO" id="YxH-wI-Qnb">
+                                <rect key="frame" x="0.0" y="-28" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIX-Ah-Tm4">
+                                <rect key="frame" x="144" y="613" width="87" height="26"/>
+                                <state key="normal" title="개발자 문의"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db4-JE-x4U">
+                                <rect key="frame" x="144" y="577" width="87" height="30"/>
+                                <state key="normal" title="돌아가기"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="CGT-2T-3jP" eventType="touchUpInside" id="MG9-e7-7c2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="me9-Ib-B1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-362.5" y="534.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SBSApplicationShortcutIcon_Shuffle@3x_2x" width="30" height="20"/>
+        <image name="x자" width="60" height="58"/>
+        <image name="돌림판 결과" width="195" height="342"/>
+        <image name="돌림판-1" width="195" height="342"/>
+        <image name="로또" width="195" height="342"/>
+        <image name="설명" width="191" height="325"/>
+        <image name="슬롯 머신" width="195" height="342"/>
+        <image name="식당 목록" width="185" height="276"/>
+        <image name="온반 선택창" width="195" height="341"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="7J8-M4-Fq3"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.71600948949999998" green="0.029079221490000001" blue="0.064391757630000004" alpha="1" colorSpace="calibratedRGB"/>
+</document>
