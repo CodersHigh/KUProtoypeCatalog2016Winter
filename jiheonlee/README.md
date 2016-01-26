@@ -4,5 +4,4 @@ MyGreateApp은 ...
 =======
 MyGreateApp은 ...
 ## musicsheetmanager
->>>>>>> CodersHigh/master
-ㄴ
+ads : ~위한 ~차별성가지는앱
