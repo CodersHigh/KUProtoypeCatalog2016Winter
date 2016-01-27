@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954C7A491C56FEAE00D47D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C7A481C56FEAE00D47D7A /* AppDelegate.swift */; };
+		954C7A4B1C56FEAE00D47D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C7A4A1C56FEAE00D47D7A /* ViewController.swift */; };
+		954C7A4E1C56FEAE00D47D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954C7A4C1C56FEAE00D47D7A /* Main.storyboard */; };
+		954C7A501C56FEAE00D47D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954C7A4F1C56FEAE00D47D7A /* Assets.xcassets */; };
+		954C7A531C56FEAE00D47D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954C7A511C56FEAE00D47D7A /* LaunchScreen.storyboard */; };
+		954C7A5E1C56FEAE00D47D7A /* GoldenTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C7A5D1C56FEAE00D47D7A /* GoldenTimeTests.swift */; };
+		954C7A691C56FEAE00D47D7A /* GoldenTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C7A681C56FEAE00D47D7A /* GoldenTimeUITests.swift */; };
+		954C7A771C56FED200D47D7A /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C7A761C56FED200D47D7A /* PilotPlant.framework */; };
+		954C7A781C56FED800D47D7A /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C7A761C56FED200D47D7A /* PilotPlant.framework */; };
+		954C7A791C56FED800D47D7A /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 954C7A761C56FED200D47D7A /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		954C7A7C1C56FEDB00D47D7A /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C7A7B1C56FEDB00D47D7A /* UIViewController+Navigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954C7A5A1C56FEAE00D47D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954C7A3D1C56FEAE00D47D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954C7A441C56FEAE00D47D7A;
+			remoteInfo = GoldenTime;
+		};
+		954C7A651C56FEAE00D47D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954C7A3D1C56FEAE00D47D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954C7A441C56FEAE00D47D7A;
+			remoteInfo = GoldenTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		954C7A7A1C56FED800D47D7A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				954C7A791C56FED800D47D7A /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		954C7A451C56FEAE00D47D7A /* GoldenTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C7A481C56FEAE00D47D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		954C7A4A1C56FEAE00D47D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		954C7A4D1C56FEAE00D47D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954C7A4F1C56FEAE00D47D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954C7A521C56FEAE00D47D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954C7A541C56FEAE00D47D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954C7A591C56FEAE00D47D7A /* GoldenTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C7A5D1C56FEAE00D47D7A /* GoldenTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenTimeTests.swift; sourceTree = "<group>"; };
+		954C7A5F1C56FEAE00D47D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954C7A641C56FEAE00D47D7A /* GoldenTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C7A681C56FEAE00D47D7A /* GoldenTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenTimeUITests.swift; sourceTree = "<group>"; };
+		954C7A6A1C56FEAE00D47D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954C7A761C56FED200D47D7A /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		954C7A7B1C56FEDB00D47D7A /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954C7A421C56FEAE00D47D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C7A771C56FED200D47D7A /* PilotPlant.framework in Frameworks */,
+				954C7A781C56FED800D47D7A /* PilotPlant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A561C56FEAE00D47D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A611C56FEAE00D47D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954C7A3C1C56FEAE00D47D7A = {
+			isa = PBXGroup;
+			children = (
+				954C7A761C56FED200D47D7A /* PilotPlant.framework */,
+				954C7A471C56FEAE00D47D7A /* GoldenTime */,
+				954C7A5C1C56FEAE00D47D7A /* GoldenTimeTests */,
+				954C7A671C56FEAE00D47D7A /* GoldenTimeUITests */,
+				954C7A461C56FEAE00D47D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954C7A461C56FEAE00D47D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954C7A451C56FEAE00D47D7A /* GoldenTime.app */,
+				954C7A591C56FEAE00D47D7A /* GoldenTimeTests.xctest */,
+				954C7A641C56FEAE00D47D7A /* GoldenTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954C7A471C56FEAE00D47D7A /* GoldenTime */ = {
+			isa = PBXGroup;
+			children = (
+				954C7A481C56FEAE00D47D7A /* AppDelegate.swift */,
+				954C7A7B1C56FEDB00D47D7A /* UIViewController+Navigation.swift */,
+				954C7A4A1C56FEAE00D47D7A /* ViewController.swift */,
+				954C7A4C1C56FEAE00D47D7A /* Main.storyboard */,
+				954C7A4F1C56FEAE00D47D7A /* Assets.xcassets */,
+				954C7A511C56FEAE00D47D7A /* LaunchScreen.storyboard */,
+				954C7A541C56FEAE00D47D7A /* Info.plist */,
+			);
+			path = GoldenTime;
+			sourceTree = "<group>";
+		};
+		954C7A5C1C56FEAE00D47D7A /* GoldenTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				954C7A5D1C56FEAE00D47D7A /* GoldenTimeTests.swift */,
+				954C7A5F1C56FEAE00D47D7A /* Info.plist */,
+			);
+			path = GoldenTimeTests;
+			sourceTree = "<group>";
+		};
+		954C7A671C56FEAE00D47D7A /* GoldenTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				954C7A681C56FEAE00D47D7A /* GoldenTimeUITests.swift */,
+				954C7A6A1C56FEAE00D47D7A /* Info.plist */,
+			);
+			path = GoldenTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954C7A441C56FEAE00D47D7A /* GoldenTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C7A6D1C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTime" */;
+			buildPhases = (
+				954C7A411C56FEAE00D47D7A /* Sources */,
+				954C7A421C56FEAE00D47D7A /* Frameworks */,
+				954C7A431C56FEAE00D47D7A /* Resources */,
+				954C7A7A1C56FED800D47D7A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldenTime;
+			productName = GoldenTime;
+			productReference = 954C7A451C56FEAE00D47D7A /* GoldenTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		954C7A581C56FEAE00D47D7A /* GoldenTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C7A701C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTimeTests" */;
+			buildPhases = (
+				954C7A551C56FEAE00D47D7A /* Sources */,
+				954C7A561C56FEAE00D47D7A /* Frameworks */,
+				954C7A571C56FEAE00D47D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954C7A5B1C56FEAE00D47D7A /* PBXTargetDependency */,
+			);
+			name = GoldenTimeTests;
+			productName = GoldenTimeTests;
+			productReference = 954C7A591C56FEAE00D47D7A /* GoldenTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		954C7A631C56FEAE00D47D7A /* GoldenTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C7A731C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTimeUITests" */;
+			buildPhases = (
+				954C7A601C56FEAE00D47D7A /* Sources */,
+				954C7A611C56FEAE00D47D7A /* Frameworks */,
+				954C7A621C56FEAE00D47D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954C7A661C56FEAE00D47D7A /* PBXTargetDependency */,
+			);
+			name = GoldenTimeUITests;
+			productName = GoldenTimeUITests;
+			productReference = 954C7A641C56FEAE00D47D7A /* GoldenTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954C7A3D1C56FEAE00D47D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SpiderPig;
+				TargetAttributes = {
+					954C7A441C56FEAE00D47D7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LPZKC82M5T;
+					};
+					954C7A581C56FEAE00D47D7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LPZKC82M5T;
+						TestTargetID = 954C7A441C56FEAE00D47D7A;
+					};
+					954C7A631C56FEAE00D47D7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LPZKC82M5T;
+						TestTargetID = 954C7A441C56FEAE00D47D7A;
+					};
+				};
+			};
+			buildConfigurationList = 954C7A401C56FEAE00D47D7A /* Build configuration list for PBXProject "GoldenTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954C7A3C1C56FEAE00D47D7A;
+			productRefGroup = 954C7A461C56FEAE00D47D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954C7A441C56FEAE00D47D7A /* GoldenTime */,
+				954C7A581C56FEAE00D47D7A /* GoldenTimeTests */,
+				954C7A631C56FEAE00D47D7A /* GoldenTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954C7A431C56FEAE00D47D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C7A531C56FEAE00D47D7A /* LaunchScreen.storyboard in Resources */,
+				954C7A501C56FEAE00D47D7A /* Assets.xcassets in Resources */,
+				954C7A4E1C56FEAE00D47D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A571C56FEAE00D47D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A621C56FEAE00D47D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954C7A411C56FEAE00D47D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C7A7C1C56FEDB00D47D7A /* UIViewController+Navigation.swift in Sources */,
+				954C7A4B1C56FEAE00D47D7A /* ViewController.swift in Sources */,
+				954C7A491C56FEAE00D47D7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A551C56FEAE00D47D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C7A5E1C56FEAE00D47D7A /* GoldenTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954C7A601C56FEAE00D47D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C7A691C56FEAE00D47D7A /* GoldenTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954C7A5B1C56FEAE00D47D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954C7A441C56FEAE00D47D7A /* GoldenTime */;
+			targetProxy = 954C7A5A1C56FEAE00D47D7A /* PBXContainerItemProxy */;
+		};
+		954C7A661C56FEAE00D47D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954C7A441C56FEAE00D47D7A /* GoldenTime */;
+			targetProxy = 954C7A651C56FEAE00D47D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		954C7A4C1C56FEAE00D47D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954C7A4D1C56FEAE00D47D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954C7A511C56FEAE00D47D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954C7A521C56FEAE00D47D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954C7A6B1C56FEAE00D47D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954C7A6C1C56FEAE00D47D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954C7A6E1C56FEAE00D47D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GoldenTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		954C7A6F1C56FEAE00D47D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GoldenTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		954C7A711C56FEAE00D47D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldenTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenTime.app/GoldenTime";
+			};
+			name = Debug;
+		};
+		954C7A721C56FEAE00D47D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldenTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenTime.app/GoldenTime";
+			};
+			name = Release;
+		};
+		954C7A741C56FEAE00D47D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoldenTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldenTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		954C7A751C56FEAE00D47D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoldenTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoldenTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldenTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954C7A401C56FEAE00D47D7A /* Build configuration list for PBXProject "GoldenTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C7A6B1C56FEAE00D47D7A /* Debug */,
+				954C7A6C1C56FEAE00D47D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954C7A6D1C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C7A6E1C56FEAE00D47D7A /* Debug */,
+				954C7A6F1C56FEAE00D47D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		954C7A701C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C7A711C56FEAE00D47D7A /* Debug */,
+				954C7A721C56FEAE00D47D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		954C7A731C56FEAE00D47D7A /* Build configuration list for PBXNativeTarget "GoldenTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C7A741C56FEAE00D47D7A /* Debug */,
+				954C7A751C56FEAE00D47D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954C7A3D1C56FEAE00D47D7A /* Project object */;
+}
