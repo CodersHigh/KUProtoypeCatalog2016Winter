@@ -18,32 +18,15 @@ GoldenTime 는 시간 관리 어플이다.
  -  현재 수행되고 있는 할 일 목록 확인 및 추가 가능
  -  실행 중인 할 일은 순서 변경 불가능 ; 일시정지 시에만 가능함, 순서 변경 시 시간 초기화
  -  제한 시간 안에 일을 수행 했을 경우 남은 시간을 금으로 환산
- -  금으로 상점에서 여러가지 아이템을 살 수 있음(미구현)
+ -  금으로 상점에서 여러가지 아이템을 살 수 있음
  -  할 일의 순서와 시간을 재생목록으로 저장, 불러오기
  -  재생목록의 편집 가능
- -  환경 설정에서 내 금 보유량과 상점이용(미구현)
+ -  환경 설정에서 내 금 보유량과 상점이용
  -  음성 on/off 가능(5분, 10분 전)
- -  음성 on 일 경우 음성 선택 및 원하는 음성 녹음 가능(미구현)
+ -  음성 on 일 경우 음성 선택 및 원하는 음성 녹음 가능
  -  진동 on/off 가능 (5분, 10분 전)
- -  초기화하기 선택 시 재생 목록 및 보유 금 초기화(미구현)
+ -  초기화하기 선택 시 재생 목록 및 보유 금 초기화
  -  문의하기를 이용해 개발자에게 문의 
 
 
-## Screen Shot
-
-<img src="https://github.com/spider-pig/KUProtoypeCatalog2016Winter/blob/master/YoonsungKim/Mockups/GTscreenshot1.png?raw=true" alt="Completry Screenshot" height="300" >
-
- + 처음 시작화면
-
-
-<img src="https://github.com/spider-pig/KUProtoypeCatalog2016Winter/blob/master/YoonsungKim/Mockups/GTscreenshot2.png?raw=true" alt="Completry Screenshot" height="300" >
-
- + 할 일 완료 시 보상 및 다음 할 일로 넘어가는 화면
-
-<img src="https://github.com/spider-pig/KUProtoypeCatalog2016Winter/blob/master/YoonsungKim/Mockups/GTscreenshot3.png?raw=true" alt="Completry Screenshot" height="300" >
-
- + 현재 진행 중 할 일 화면 (금  : 완료, 곡괭이 : 진행 중)
-
-
-## Prototype Video
-[![GoldenTime App Video](http://img.youtube.com/vi/dYXyixSkz30/0.jpg)](https://www.youtube.com/watch?v=dYXyixSkz30&feature=youtu.be)
+##
