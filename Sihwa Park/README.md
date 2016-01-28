@@ -10,7 +10,24 @@
 ### Mockup Sketch
 
 
-<img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/1.jpeg" alt="Completry Screenshot" height="250" > <img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/3.jpeg" alt="Completry Screenshot" height="250" > <img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/5.jpeg" alt="Completry Screenshot" height="250" >
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/1.jpeg?raw=true" alt="Completry Screenshot" height="250" > <img src="https://raw.githubusercontent.com/CodersHigh/KUProtoypeCatalog2016Winter/master/Sihwa%20Park/Mockups/image/3.jpeg" alt="Completry Screenshot" height="250" > <img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/4.jpeg?raw=true" alt="Completry Screenshot" height="250" >
 
 
 ### Prototype Video
+[![PlanA Prototype Video](http://img.youtube.com/vi/jeQ1FLA2S28/0.jpg)](https://www.youtube.com/watch?v=jeQ1FLA2S28)
+
+### Screenshots
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_1.jpeg?raw=true" alt="Completry Screenshot" height="300" > <img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_2.jpeg?raw=true" alt="Completry Screenshot" height="300" > <img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_3.jpeg?raw=true" alt="Completry Screenshot" height="300">
+
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_4.jpeg?raw=true" alt="Completry Screenshot" height="300" > <img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_5.jpeg?raw=true" alt="Completry Screenshot" height="300" > <img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Screenshot_6.jpeg?raw=true" alt="Completry Screenshot" height="300">
+
+
+### Storyboard
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Storyboard_1.jpeg?raw=true" alt="Completry Screenshot" height="500" >
+
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Storyboard_2.jpeg?raw=true" alt="Completry Screenshot" height="500" >
+
+<img src="https://github.com/astrayne/KUProtoypeCatalog2016Winter/blob/master/Sihwa%20Park/Mockups/image/Storyboard_3.jpeg?raw=true" alt="Completry Screenshot" height="500" >
+
+
+
