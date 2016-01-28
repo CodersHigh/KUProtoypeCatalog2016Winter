@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="i0u-63-CTN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--현재-->
+        <scene sceneID="pec-sV-m1H">
+            <objects>
+                <viewController id="L7w-iz-02m" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kdv-8Q-6wK"/>
+                        <viewControllerLayoutGuide type="bottom" id="PEZ-hi-MpU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KEZ-kY-REK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC5-zw-u9O">
+                                <rect key="frame" x="83" y="525" width="52" height="35"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0J-r1-AWz">
+                                <rect key="frame" x="245" y="530" width="46" height="30"/>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_1" translatesAutoresizingMaskIntoConstraints="NO" id="Lpr-Jy-XH5">
+                                <rect key="frame" x="2" y="-89" width="318" height="759"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="현재" id="Mij-cv-MMG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="4Mh-Ha-ItB">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oef-Jz-dSp">
+                                <rect key="frame" x="240" y="6" width="64" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="설정"/>
+                                <connections>
+                                    <segue destination="3eY-LW-39q" kind="show" id="9ta-n7-mAU"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ho2-f8-i6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4588" y="-696"/>
+        </scene>
+        <!--설정-->
+        <scene sceneID="kOe-Ls-f8R">
+            <objects>
+                <viewController id="3eY-LW-39q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NsJ-Mh-gg2"/>
+                        <viewControllerLayoutGuide type="bottom" id="gOD-4X-SXh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eEF-Oc-itu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_2" translatesAutoresizingMaskIntoConstraints="NO" id="kjc-Qm-Mut">
+                                <rect key="frame" x="0.0" y="-410" width="320" height="1376"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="설정" id="aOx-bs-O5l"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4h-WW-aAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4962" y="-696"/>
+        </scene>
+        <!--다이어리-->
+        <scene sceneID="7N5-wr-hu9">
+            <objects>
+                <viewController id="9sv-na-TQm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Op-yc-dVT"/>
+                        <viewControllerLayoutGuide type="bottom" id="EM3-EH-AXL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Loa-cA-NHq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_3" translatesAutoresizingMaskIntoConstraints="NO" id="4IB-vt-pSy">
+                                <rect key="frame" x="0.0" y="-420" width="313" height="1408"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awc-Ym-Rwl">
+                                <rect key="frame" x="179" y="523" width="51" height="37"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9j-GK-K8S">
+                                <rect key="frame" x="198" y="251" width="32" height="31"/>
+                                <state key="normal" image="다이어리 세부"/>
+                                <connections>
+                                    <segue destination="vfn-0g-khu" kind="presentation" id="JoG-oS-r0z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="다이어리" image="다이어리" id="W4T-q9-Rgi"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1g-hs-DIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="84"/>
+        </scene>
+        <!--다이어리 세부-->
+        <scene sceneID="6Md-j5-yd1">
+            <objects>
+                <viewController title="다이어리 세부" id="vfn-0g-khu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1UZ-Jr-A16"/>
+                        <viewControllerLayoutGuide type="bottom" id="rTa-XV-y5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eSz-4h-FyI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_4" translatesAutoresizingMaskIntoConstraints="NO" id="Vdu-pI-XvI">
+                                <rect key="frame" x="-1" y="-213" width="321" height="993"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzv-rQ-dhx">
+                                <rect key="frame" x="269" y="28" width="46" height="30"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="vfn-0g-khu" eventType="touchUpInside" id="xul-fI-pdX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1l-Cq-Eny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="748"/>
+        </scene>
+        <!--그래프-->
+        <scene sceneID="3ZE-3q-Bas">
+            <objects>
+                <viewController id="9oo-4v-2JR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SbW-1s-VyM"/>
+                        <viewControllerLayoutGuide type="bottom" id="cs4-3O-nWR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="osP-V6-1pN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_5" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-yQ-ps0">
+                                <rect key="frame" x="0.0" y="-36" width="320" height="640"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEp-NA-4vO">
+                                <rect key="frame" x="224" y="521" width="55" height="39"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="그래프" image="그래프" id="pDt-1D-Xdc"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOU-tZ-CNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3640" y="84"/>
+        </scene>
+        <!--캐릭터-->
+        <scene sceneID="JCJ-Gi-CTU">
+            <objects>
+                <viewController id="fnw-yA-h9M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vga-ck-IQn"/>
+                        <viewControllerLayoutGuide type="bottom" id="PS8-iC-lYW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="djc-s2-3Ep">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DI-hv-iKG">
+                                <rect key="frame" x="6" y="530" width="61" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mym-pR-7mI">
+                                <rect key="frame" x="270" y="70" width="50" height="35"/>
+                                <connections>
+                                    <segue destination="4Xd-fQ-o8w" kind="presentation" id="dfC-Em-hJ4"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_6" translatesAutoresizingMaskIntoConstraints="NO" id="Atv-9E-BzV">
+                                <rect key="frame" x="0.0" y="-125" width="320" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="캐릭터" image="캐릭터" id="pLq-wN-JbK"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2CO-ft-lE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4010" y="84"/>
+        </scene>
+        <!--뱃지-->
+        <scene sceneID="fKV-vW-O9I">
+            <objects>
+                <viewController title="뱃지" id="4Xd-fQ-o8w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IBK-0D-6pi"/>
+                        <viewControllerLayoutGuide type="bottom" id="bPk-gI-Vs6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q1l-Lh-oUv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="손그림 프로토타입_7" translatesAutoresizingMaskIntoConstraints="NO" id="p4l-Qp-jOd">
+                                <rect key="frame" x="-3" y="-19" width="327" height="617"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzK-cV-2Na">
+                                <rect key="frame" x="274" y="28" width="46" height="30"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="4Xd-fQ-o8w" eventType="touchUpInside" id="c2T-1f-9C8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NXo-My-D2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4387" y="84"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kor-J8-dw0">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i0u-63-CTN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="AvD-bq-ZZH">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="g8K-Ta-CVj" kind="relationship" relationship="viewControllers" id="8GD-p0-Cmd"/>
+                        <segue destination="9sv-na-TQm" kind="relationship" relationship="viewControllers" id="cAg-yq-ih9"/>
+                        <segue destination="9oo-4v-2JR" kind="relationship" relationship="viewControllers" id="lj0-cf-NBP"/>
+                        <segue destination="fnw-yA-h9M" kind="relationship" relationship="viewControllers" id="IHU-tT-vFc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wNy-wZ-EKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3424" y="-680"/>
+        </scene>
+        <!--현재-->
+        <scene sceneID="oiA-8C-fDh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g8K-Ta-CVj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="현재" image="현재" id="loe-Lm-RKH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RV-OO-jJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L7w-iz-02m" kind="relationship" relationship="rootViewController" id="iQC-kv-Px8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCP-Rf-btC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4093" y="-680"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="그래프" width="32" height="32"/>
+        <image name="다이어리" width="32" height="32"/>
+        <image name="다이어리 세부" width="24" height="24"/>
+        <image name="설정" width="32" height="32"/>
+        <image name="손그림 프로토타입_1" width="736" height="1296"/>
+        <image name="손그림 프로토타입_2" width="784" height="1376"/>
+        <image name="손그림 프로토타입_3" width="784" height="1408"/>
+        <image name="손그림 프로토타입_4" width="672" height="1200"/>
+        <image name="손그림 프로토타입_5" width="656" height="1168"/>
+        <image name="손그림 프로토타입_6" width="768" height="1360"/>
+        <image name="손그림 프로토타입_7" width="688" height="1216"/>
+        <image name="캐릭터" width="32" height="32"/>
+        <image name="현재" width="32" height="32"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
