@@ -20,9 +20,13 @@
 - 하지만 각각의 사이트에 접속애서 봐야하기 때문에 불편한 점이 있다.
 
 ###App 실행
-1. App을 실행하면 출발 위치, 도착지, 출발 날짜를 선택한다.
+0. App을 실행하면 교통편 찾기, 내 교통편 확인을 선택할 수 있다.
+1. **'교통편 찾기'**를 선택하면 출발 위치, 도착지, 출발 날짜를 선택한다.
 2. 출발지에서 도착지로 가는 교통수단을 버스/기차/비행기별로 소요 시간, 비용을 표시해준다.
-3. 현재 위치에서 각 출발하는 터미널, 역 등으로 가는데 걸리는 시간을 알려준다.
 4. 교통수단을 선택하면 그 교통편이 운행되는 시간을 제공하고 최종적으로 시간을 선택하면 예매할 수 있다.
-5. 만약 타지역에서 할 경우에는 버스터미널, 기차역, 공항이 어디있는지 모르기 때문에 현재 위치에서 각 위치로 갈 수 있는 경로를 안내할 수 있다. 
+5. **'내 교통편 확인'**을 확인하면 타지역에서 할 경우에는 버스터미널, 기차역, 공항이 어디있는지 모르기 때문에 현재 위치에서 각 위치로 갈 수 있는 경로를 안내할 수 있다. 
+<img src="https://github.com/HwanseBae/hwansebae/blob/master/Hwanse%20Bae/Mock%20Up/사진/메인%20페이지.png?raw=true" height="250" > 
+<img src="https://github.com/HwanseBae/hwansebae/blob/master/Hwanse%20Bae/Mock%20Up/사진/thumb_DQVE6831_1024.jpg?raw=true" height="250" > <img src="https://github.com/HwanseBae/hwansebae/blob/master/Hwanse%20Bae/Mock%20Up/사진/LTA-2.jpg?raw=true" height="250" >
+<img src="https://github.com/HwanseBae/hwansebae/blob/master/Hwanse%20Bae/Mock%20Up/사진/내%20예약확인.png?raw=true" height="250">
+<img src=https://github.com/HwanseBae/hwansebae/blob/master/Hwanse%20Bae/Mock%20Up/사진/HowToGo.png?raw=true" height="250">
 
