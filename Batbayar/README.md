@@ -1,2 +1,0 @@
-## NowPlaying App
-NowPlaying App
