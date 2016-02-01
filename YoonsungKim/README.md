@@ -42,7 +42,7 @@ GoldenTime 는 시간 관리 어플이다.
 
 <img src="https://github.com/spider-pig/KUProtoypeCatalog2016Winter/blob/master/YoonsungKim/Mockups/GTscreenshot3.png?raw=true" alt="Completry Screenshot" height="300" >
 
- + 현재 진행 중 할 일 화면 (금  : 완료, 곡괭이 : 진행 중)
+ + 현재 진행 중 할 일 화면 (금 : 완료, 곡괭이 : 진행 중)
 
 
 ## Prototype Video
