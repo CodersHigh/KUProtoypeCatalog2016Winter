@@ -12,7 +12,25 @@
 		9D26853E1C59F2C6000BD94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D26853C1C59F2C6000BD94A /* Main.storyboard */; };
 		9D2685401C59F2C6000BD94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D26853F1C59F2C6000BD94A /* Assets.xcassets */; };
 		9D2685431C59F2C6000BD94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2685411C59F2C6000BD94A /* LaunchScreen.storyboard */; };
+		9D6FA9B51C5EE7CF002B9DFB /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6FA9B41C5EE7CF002B9DFB /* PilotPlant.framework */; };
+		9D6FA9B71C5EE7D9002B9DFB /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FA9B61C5EE7D9002B9DFB /* UIViewController+Navigation.swift */; };
+		9D6FA9B81C5EE7FB002B9DFB /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6FA9B41C5EE7CF002B9DFB /* PilotPlant.framework */; };
+		9D6FA9B91C5EE7FB002B9DFB /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6FA9B41C5EE7CF002B9DFB /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D6FA9BA1C5EE7FB002B9DFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9D6FA9B91C5EE7FB002B9DFB /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9D2685351C59F2C6000BD94A /* TeacherNStudentPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherNStudentPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +40,8 @@
 		9D26853F1C59F2C6000BD94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2685421C59F2C6000BD94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2685441C59F2C6000BD94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6FA9B41C5EE7CF002B9DFB /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		9D6FA9B61C5EE7D9002B9DFB /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6FA9B51C5EE7CF002B9DFB /* PilotPlant.framework in Frameworks */,
+				9D6FA9B81C5EE7FB002B9DFB /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +60,7 @@
 		9D26852C1C59F2C6000BD94A = {
 			isa = PBXGroup;
 			children = (
+				9D6FA9B41C5EE7CF002B9DFB /* PilotPlant.framework */,
 				9D2685371C59F2C6000BD94A /* TeacherNStudentPrototype */,
 				9D2685361C59F2C6000BD94A /* Products */,
 			);
@@ -54,6 +77,7 @@
 		9D2685371C59F2C6000BD94A /* TeacherNStudentPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				9D6FA9B61C5EE7D9002B9DFB /* UIViewController+Navigation.swift */,
 				9D2685381C59F2C6000BD94A /* AppDelegate.swift */,
 				9D26853A1C59F2C6000BD94A /* ViewController.swift */,
 				9D26853C1C59F2C6000BD94A /* Main.storyboard */,
@@ -74,6 +98,7 @@
 				9D2685311C59F2C6000BD94A /* Sources */,
 				9D2685321C59F2C6000BD94A /* Frameworks */,
 				9D2685331C59F2C6000BD94A /* Resources */,
+				9D6FA9BA1C5EE7FB002B9DFB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6FA9B71C5EE7D9002B9DFB /* UIViewController+Navigation.swift in Sources */,
 				9D26853B1C59F2C6000BD94A /* ViewController.swift in Sources */,
 				9D2685391C59F2C6000BD94A /* AppDelegate.swift in Sources */,
 			);
@@ -249,6 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TeacherNStudentPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.TeacherNStudentPrototype;
@@ -260,6 +290,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TeacherNStudentPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.TeacherNStudentPrototype;
@@ -286,6 +320,7 @@
 				9D2685491C59F2C6000BD94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
