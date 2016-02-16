@@ -84,6 +84,12 @@
                                     <segue destination="VJD-Xb-T7c" kind="show" animates="NO" id="HlV-es-BnX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfn-1E-NvJ">
+                                <rect key="frame" x="6" y="30" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lJL-xm-obL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -141,7 +147,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cF-qu-GV5">
                                 <rect key="frame" x="0.0" y="530" width="45" height="38"/>
                                 <connections>
-                                    <segue destination="7fS-zj-8bz" kind="show" animates="NO" id="E5m-dh-SdF"/>
+                                    <segue destination="7fS-zj-8bz" kind="show" animates="NO" id="xbY-SL-6tR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -337,7 +343,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="g4L-NS-DMX"/>
+        <segue reference="lJL-xm-obL"/>
         <segue reference="h8O-BQ-uQD"/>
-        <segue reference="hbB-Lf-7xE"/>
     </inferredMetricsTieBreakers>
 </document>
