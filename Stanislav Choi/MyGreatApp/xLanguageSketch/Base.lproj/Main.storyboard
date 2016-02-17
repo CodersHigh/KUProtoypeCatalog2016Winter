@@ -17,19 +17,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0594" translatesAutoresizingMaskIntoConstraints="NO" id="FCx-4k-3ea">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VC-lj-9ho">
-                                <rect key="frame" x="140" y="341" width="74" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xLanguage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQH-xv-Yvl">
+                                <rect key="frame" x="123" y="228" width="128" height="37"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail or ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-UY-PjU">
+                                <rect key="frame" x="30" y="286" width="314" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cxu-da-0O4">
+                                <rect key="frame" x="30" y="324" width="314" height="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jux-kN-dMf">
+                                <rect key="frame" x="159" y="362" width="56" height="36"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="yrf-Am-4yh" kind="show" id="HW9-Qw-JZk"/>
+                                    <segue destination="n06-bl-5Ga" kind="presentation" id="krW-RF-08o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFh-ZT-MzL">
-                                <rect key="frame" x="128" y="610" width="98" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jea-kR-0zh">
+                                <rect key="frame" x="155" y="612" width="64" height="35"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <state key="normal" title="Sign-In"/>
                                 <connections>
-                                    <segue destination="65B-xO-lgU" kind="push" id="vMo-UA-lRL"/>
+                                    <segue destination="65B-xO-lgU" kind="show" id="oMm-ld-aED"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,7 +62,7 @@
         <!--Create Account-->
         <scene sceneID="o3L-OF-OJJ">
             <objects>
-                <viewController id="65B-xO-lgU" sceneMemberID="viewController">
+                <viewController id="65B-xO-lgU" customClass="CreateAccountViewController" customModule="xLanguageSketch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x6g-hH-Qdk"/>
                         <viewControllerLayoutGuide type="bottom" id="tJz-rx-IkT"/>
@@ -107,22 +124,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-2R-qpV">
-                                <rect key="frame" x="102" y="613" width="170" height="34"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
-                                <state key="normal" title="Create Account"/>
-                                <connections>
-                                    <segue destination="bjI-Kp-QKC" kind="popoverPresentation" popoverAnchorView="ZXp-2R-qpV" id="FNE-UN-WRo">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="JXK-Fl-JMG">
                                 <rect key="frame" x="162" y="111" width="50" height="50"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="MrL-2b-9lr">
                                 <rect key="frame" x="123" y="72" width="128" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-2R-qpV">
+                                <rect key="frame" x="102" y="613" width="170" height="34"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <state key="normal" title="Create Account"/>
+                                <connections>
+                                    <segue destination="n06-bl-5Ga" kind="presentation" id="wuG-RV-L6R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -142,51 +157,6 @@
             </objects>
             <point key="canvasLocation" x="4101.5" y="431.5"/>
         </scene>
-        <!--Main Page-->
-        <scene sceneID="fw7-GD-1bw">
-            <objects>
-                <viewController id="yrf-Am-4yh" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GS4-Di-Xrh"/>
-                        <viewControllerLayoutGuide type="bottom" id="9lZ-aE-bfe"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0Xi-6c-Zuh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bV-Da-DcK">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="Friends" image="plainicon.com-39373-256px" id="aXr-w0-Q9d"/>
-                                    <tabBarItem title="Chats" image="1455543329_bubble" id="nWO-QT-xsI"/>
-                                    <tabBarItem title="Words" image="1455543783_A-fonts" id="dcr-3d-3or"/>
-                                    <tabBarItem title="Information" image="1455543816_Info01" id="r94-pb-k3S"/>
-                                </items>
-                            </tabBar>
-                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" searchBarStyle="minimal" text="" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="cyr-EN-1xB">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Main Page" id="jYB-N5-vzf">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Ab3-9J-vBc">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lqm-jI-keN">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Logout"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xo9-o5-xyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4101.5" y="1253.5"/>
-        </scene>
         <!--Friends-->
         <scene sceneID="brE-XB-OtY">
             <objects>
@@ -199,9 +169,132 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0766" translatesAutoresizingMaskIntoConstraints="NO" id="8zD-p7-Ymd">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzP-VS-0Gf">
+                                <rect key="frame" x="20" y="98" width="76" height="21"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="2CN-yg-VVA">
+                                <rect key="frame" x="52" y="138" width="40" height="40"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="tjQ-4D-kTh">
+                                <rect key="frame" x="32" y="118" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="B0y-s6-hQJ">
+                                <rect key="frame" x="167" y="138" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="eIF-sp-FtB">
+                                <rect key="frame" x="147" y="118" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="YpC-Ca-CYR">
+                                <rect key="frame" x="286" y="138" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="gFl-9c-I54">
+                                <rect key="frame" x="266" y="118" width="80" height="80"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p48-Uw-4DW">
+                                <rect key="frame" x="20" y="261" width="63" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leonard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ1-Mg-uJe">
+                                <rect key="frame" x="40" y="206" width="64" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sheldon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rh6-EU-8Sf">
+                                <rect key="frame" x="155" y="206" width="64" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Howard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sv3-hn-EkF">
+                                <rect key="frame" x="276" y="206" width="60" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="1sb-1d-URq">
+                                <rect key="frame" x="50" y="303" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="H1M-K1-ZsY">
+                                <rect key="frame" x="30" y="283" width="80" height="80"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rajesh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAB-ya-D12">
+                                <rect key="frame" x="45" y="371" width="51" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Russian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9I-Sq-xdl">
+                                <rect key="frame" x="15" y="428" width="77" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-0V-nvc">
+                                <rect key="frame" x="52" y="473" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="2qc-nT-4HR">
+                                <rect key="frame" x="32" y="453" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-Td-mvi">
+                                <rect key="frame" x="167" y="473" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="Q7s-3E-Hyl">
+                                <rect key="frame" x="147" y="453" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="ggV-7l-i7f">
+                                <rect key="frame" x="286" y="473" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="V9y-f2-VAQ">
+                                <rect key="frame" x="266" y="453" width="80" height="80"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stanislav" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7u-CP-dPF">
+                                <rect key="frame" x="38" y="541" width="68" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Irina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifX-Ff-WT7">
+                                <rect key="frame" x="171" y="541" width="33" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="0da-vl-iaD">
+                                <rect key="frame" x="167" y="303" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="Trk-ph-ihF">
+                                <rect key="frame" x="147" y="283" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="YyA-uh-WTm">
+                                <rect key="frame" x="286" y="303" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="x6c-3X-Lr3">
+                                <rect key="frame" x="266" y="283" width="80" height="80"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Penny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2E-rS-m3I">
+                                <rect key="frame" x="164" y="371" width="46" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qw6-0C-oRJ">
+                                <rect key="frame" x="289" y="371" width="34" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bernadette" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygf-AM-fpa">
+                                <rect key="frame" x="263" y="541" width="87" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -210,7 +303,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Bp-cp-Oy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3642.5" y="2088.5"/>
+            <point key="canvasLocation" x="2850.5" y="2088.5"/>
         </scene>
         <!--Chats-->
         <scene sceneID="Hzo-nH-ynj">
@@ -235,32 +328,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Byy-iv-FMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4100.5" y="2088.5"/>
+            <point key="canvasLocation" x="3694.5" y="2088.5"/>
         </scene>
         <!--My Words-->
-        <scene sceneID="8ER-Am-0eF">
+        <scene sceneID="XyQ-Bw-NET">
             <objects>
-                <viewController id="fH1-Dw-l9p" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Sbg-XK-xbz"/>
-                        <viewControllerLayoutGuide type="bottom" id="O4l-1Z-dKi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pF0-xV-xKK">
+                <tableViewController id="17h-nD-UcW" customClass="WordsTableViewController" customModule="xLanguageSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VAj-2S-YAm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0769" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-im-UN4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="My Words" id="Lu2-Fi-1sG"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="alR-sv-2aa">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="alR-sv-2aa" id="cfD-Jv-gdC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="17h-nD-UcW" id="m2O-jK-HvI"/>
+                            <outlet property="delegate" destination="17h-nD-UcW" id="gPH-GO-Pba"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Words" id="lBu-83-FLE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nac-sy-KYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s2c-l3-hD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4570.5" y="2088.5"/>
+            <point key="canvasLocation" x="4548.5" y="2088.5"/>
         </scene>
         <!--My Profile-->
         <scene sceneID="uWi-ne-Khh">
@@ -277,21 +375,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0672" translatesAutoresizingMaskIntoConstraints="NO" id="iOD-bD-j0J">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRb-tc-Azh">
-                                <rect key="frame" x="48" y="43" width="48" height="30"/>
-                                <state key="normal" title="Cancel"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rc-Mf-qia">
-                                <rect key="frame" x="314" y="43" width="50" height="30"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Profile" id="yHP-hg-8oj">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="qC2-oO-X2T">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mby-7A-P6A">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mby-7A-P6A">
                                 <rect key="frame" x="288" y="7" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
                                 <state key="normal" title="Edit"/>
                             </button>
                         </barButtonItem>
@@ -300,7 +392,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUH-ko-fzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4651.5" y="431.5"/>
+            <point key="canvasLocation" x="5400.5" y="2088.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OBR-Jm-50L">
@@ -314,25 +406,123 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="apC-pN-Psg"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FUF-es-fRd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euW-Nf-mSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3154.5" y="431.5"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pT6-fB-Lpz">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="n06-bl-5Ga" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="PzC-zm-AWL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ujt-oP-1s9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ppv-wA-5aM" kind="relationship" relationship="viewControllers" id="Hes-Bb-jKd"/>
+                        <segue destination="Ut7-Fx-IZ6" kind="relationship" relationship="viewControllers" id="3eO-vc-2UA"/>
+                        <segue destination="0DN-W7-80n" kind="relationship" relationship="viewControllers" id="B5b-if-avd"/>
+                        <segue destination="Rs0-Ib-Hmg" kind="relationship" relationship="viewControllers" id="1sA-Jh-RwT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ad-PK-wTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3877.5" y="1246.5"/>
+        </scene>
+        <!--Words-->
+        <scene sceneID="zc6-JM-NTI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0DN-W7-80n" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Words" image="1455543783_A-fonts" id="Ii7-Gh-fak"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VoM-P6-Onf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="17h-nD-UcW" kind="relationship" relationship="rootViewController" id="Hez-aQ-uQT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Oc-QU-uds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4101.5" y="2088.5"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="oPo-VP-0Kl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ut7-Fx-IZ6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chats" image="1455543329_bubble" id="wwE-NN-v13"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xmz-mK-h9I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nDN-Qi-kUa" kind="relationship" relationship="rootViewController" id="KeY-XZ-D05"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PmC-06-U19" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3252.5" y="2088.5"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="MoS-ly-ufT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppv-wA-5aM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friends" image="plainicon.com-39373-256px" id="OO5-vq-Eze"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="M2r-4Y-fsI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="V6p-fI-FXU" kind="relationship" relationship="rootViewController" id="r9T-Mp-SWE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UuU-6b-ShC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2406.5" y="2088.5"/>
+        </scene>
+        <!--Information-->
+        <scene sceneID="a6k-2P-ZSJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rs0-Ib-Hmg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Information" image="1455543816_Info01" id="a9h-Xk-paS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1pG-6R-4T6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bjI-Kp-QKC" kind="relationship" relationship="rootViewController" id="uR9-4Z-DNQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFd-tN-bdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4949.5" y="2088.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1455541671_icon-ios7-circle-outline" width="128" height="128"/>
-        <image name="1455543329_bubble" width="37" height="37"/>
-        <image name="1455543783_A-fonts" width="37" height="37"/>
-        <image name="1455543816_Info01" width="37" height="37"/>
+        <image name="1455543329_bubble" width="25" height="25"/>
+        <image name="1455543783_A-fonts" width="25" height="25"/>
+        <image name="1455543816_Info01" width="25" height="25"/>
         <image name="Camera-50" width="50" height="50"/>
-        <image name="IMG_0594" width="680" height="1176"/>
         <image name="IMG_0672" width="847" height="1383"/>
         <image name="IMG_0765" width="520" height="800"/>
-        <image name="IMG_0766" width="543" height="834"/>
-        <image name="IMG_0769" width="514" height="800"/>
-        <image name="plainicon.com-39373-256px" width="37" height="37"/>
+        <image name="plainicon.com-39373-256px" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wuG-RV-L6R"/>
+    </inferredMetricsTieBreakers>
 </document>
