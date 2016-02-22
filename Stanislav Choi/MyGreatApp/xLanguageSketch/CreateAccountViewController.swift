@@ -10,10 +10,38 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
 
+    
+    @IBOutlet weak var createAccountScrollView: UIScrollView!
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var userSurnameTextField: UITextField!
+    @IBOutlet weak var userIDTextField: UITextField!
+    @IBOutlet weak var userPasswordTextField: UITextField!
+    @IBOutlet weak var repeatPasswordTextField: UITextField!
+    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBAction func userNameTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    @IBAction func userSurnameTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    @IBAction func userIDTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    @IBAction func userPasswordTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    @IBAction func repeatPasswordTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    @IBAction func userEmailTextFieldDismiss(sender: AnyObject) {
+        return
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        createAccountScrollView.contentSize.height = 1000
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,17 +53,46 @@ class CreateAccountViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func registerButtonTapped(sender: AnyObject) {
+        let name = userNameTextField.text
+        let surname = userSurnameTextField.text
+        let id = userIDTextField.text
+        let password = userPasswordTextField.text
+        let repeatPassword = repeatPasswordTextField.text
+        let email = userEmailTextField.text
+        
+        if (name!.isEmpty || surname!.isEmpty || id!.isEmpty || password!.isEmpty || repeatPassword!.isEmpty || email!.isEmpty) {
+            displayMyAlertMessage ("All fields are required")
+            return
+        }
+        
+        if (password != repeatPassword) {
+            displayMyAlertMessage ("Passwords do not match")
+            return
+        }
+        
+        NSUserDefaults.standardUserDefaults().setObject(email, forKey : "userEmail")
+        NSUserDefaults.standardUserDefaults().setObject(password, forKey : "userPassword")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
+        let myAlert = UIAlertController (title : "Thank You!", message : "Registration Completed", preferredStyle : UIAlertControllerStyle.Alert)
+        
+        let okAction = UIAlertAction (title : "OK", style : UIAlertActionStyle.Default) {
+            action in self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
+        myAlert.addAction(okAction)
+        self.presentViewController(myAlert, animated: true, completion: nil)
     }
-    */
-
+    
+    
+    func displayMyAlertMessage (userMessage : String) {
+        let myAlert = UIAlertController (title : "Warning!", message : userMessage, preferredStyle : UIAlertControllerStyle.Alert)
+        
+        let okAction = UIAlertAction (title : "OK", style : UIAlertActionStyle.Default, handler : nil)
+        
+        myAlert.addAction(okAction)
+        
+        self.presentViewController(myAlert, animated: true, completion: nil)
+    }
 }

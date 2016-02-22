@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZUl-Wy-o4S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="n06-bl-5Ga">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -8,7 +8,7 @@
         <!--Welcome to xLanguage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="xLanguageSketch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="xLanguageSketch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,24 +23,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail or ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-UY-PjU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-UY-PjU">
                                 <rect key="frame" x="30" y="286" width="314" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="userEmailTextFieldDismiss:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="GWR-Gh-R1t"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cxu-da-0O4">
                                 <rect key="frame" x="30" y="324" width="314" height="30"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jux-kN-dMf">
-                                <rect key="frame" x="159" y="362" width="56" height="36"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
-                                <state key="normal" title="Login"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                 <connections>
-                                    <segue destination="n06-bl-5Ga" kind="presentation" id="krW-RF-08o"/>
+                                    <action selector="userPasswordTextFieldDismiss:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="fZb-KL-vRx"/>
                                 </connections>
-                            </button>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jea-kR-0zh">
                                 <rect key="frame" x="155" y="612" width="64" height="35"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
@@ -49,15 +47,27 @@
                                     <segue destination="CR4-Ik-MG7" kind="presentation" id="4RM-hL-RSK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jux-kN-dMf">
+                                <rect key="frame" x="159" y="362" width="56" height="36"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzr-5U-MXd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome to xLanguage" prompt="" id="iai-fI-e1h"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="userEmail" destination="fAd-UY-PjU" id="t2N-a0-RNP"/>
+                        <outlet property="userPassword" destination="cxu-da-0O4" id="AJM-im-Uxf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3642.5" y="431.5"/>
+            <point key="canvasLocation" x="5865.5" y="2088.5"/>
         </scene>
         <!--Create Account-->
         <scene sceneID="o3L-OF-OJJ">
@@ -71,75 +81,105 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Idv-wS-h4b">
-                                <rect key="frame" x="20" y="232" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pj-Nh-bzy">
-                                <rect key="frame" x="20" y="203" width="74" height="21"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2lu-0R-bJh">
-                                <rect key="frame" x="20" y="270" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oil-cX-zrJ">
-                                <rect key="frame" x="20" y="358" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xLanguage ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mI8-E1-3y2">
-                                <rect key="frame" x="20" y="329" width="109" height="21"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2yv-lx-06X">
-                                <rect key="frame" x="20" y="446" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqW-pe-D3v">
-                                <rect key="frame" x="20" y="417" width="74" height="21"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w1l-zS-VSY">
-                                <rect key="frame" x="20" y="484" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YzO-X7-Hqp">
-                                <rect key="frame" x="20" y="568" width="335" height="30"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-Mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhp-ek-ApD">
-                                <rect key="frame" x="20" y="539" width="55" height="21"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="JXK-Fl-JMG">
-                                <rect key="frame" x="162" y="111" width="50" height="50"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="MrL-2b-9lr">
-                                <rect key="frame" x="123" y="72" width="128" height="128"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-2R-qpV">
-                                <rect key="frame" x="102" y="613" width="170" height="34"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
-                                <state key="normal" title="Create Account"/>
-                                <connections>
-                                    <segue destination="n06-bl-5Ga" kind="presentation" id="wuG-RV-L6R"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vK5-jk-ETg">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AzK-6l-SYz">
+                                        <rect key="frame" x="20" y="420" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                        <connections>
+                                            <action selector="repeatPasswordTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="6hT-8H-fl1"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWN-Av-dlg">
+                                        <rect key="frame" x="20" y="139" width="74" height="21"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FO6-BA-9KG">
+                                        <rect key="frame" x="20" y="168" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="userNameTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="QWL-Yz-8iY"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xLanguage ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxN-bQ-EEB">
+                                        <rect key="frame" x="20" y="265" width="109" height="21"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d1l-iy-IS4">
+                                        <rect key="frame" x="20" y="294" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="userIDTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="tf1-03-gci"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fMl-Mx-NZc">
+                                        <rect key="frame" x="20" y="504" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="userEmailTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="QFY-lH-BO1"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FcL-TB-DZt">
+                                        <rect key="frame" x="20" y="382" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                        <connections>
+                                            <action selector="userPasswordTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="iW5-vy-1ZM"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd0-TK-0k9">
+                                        <rect key="frame" x="20" y="353" width="74" height="21"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Camera-50" translatesAutoresizingMaskIntoConstraints="NO" id="bwa-5X-p3y">
+                                        <rect key="frame" x="162" y="47" width="50" height="50"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-Mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cg3-To-3Sw">
+                                        <rect key="frame" x="20" y="475" width="55" height="21"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="1455541671_icon-ios7-circle-outline" translatesAutoresizingMaskIntoConstraints="NO" id="hum-Ck-2rw">
+                                        <rect key="frame" x="123" y="8" width="128" height="128"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vC4-40-dO9">
+                                        <rect key="frame" x="20" y="206" width="335" height="30"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="userSurnameTextFieldDismiss:" destination="65B-xO-lgU" eventType="editingDidEndOnExit" id="wtb-AV-LQB"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jod-P1-6FM">
+                                        <rect key="frame" x="102" y="549" width="170" height="34"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                        <state key="normal" title="Create Account"/>
+                                        <connections>
+                                            <action selector="registerButtonTapped:" destination="65B-xO-lgU" eventType="touchUpInside" id="xmQ-jc-FuE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vK5-jk-ETg" firstAttribute="centerX" secondItem="NEn-Ne-Dvd" secondAttribute="centerX" id="F93-Nu-rCr"/>
+                            <constraint firstItem="vK5-jk-ETg" firstAttribute="centerY" secondItem="NEn-Ne-Dvd" secondAttribute="centerY" id="Ixo-wx-Lbn"/>
+                            <constraint firstItem="vK5-jk-ETg" firstAttribute="width" secondItem="NEn-Ne-Dvd" secondAttribute="width" id="nu4-i7-VG6"/>
+                            <constraint firstItem="vK5-jk-ETg" firstAttribute="height" secondItem="NEn-Ne-Dvd" secondAttribute="height" id="qjr-E6-o2D"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Create Account" id="x5l-Us-dnJ">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="4sr-gy-Gas">
@@ -158,10 +198,19 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="createAccountScrollView" destination="vK5-jk-ETg" id="Kd3-im-6bL"/>
+                        <outlet property="repeatPasswordTextField" destination="AzK-6l-SYz" id="O10-Uh-FGe"/>
+                        <outlet property="userEmailTextField" destination="fMl-Mx-NZc" id="0G2-7S-uF0"/>
+                        <outlet property="userIDTextField" destination="d1l-iy-IS4" id="1Gm-m4-ENk"/>
+                        <outlet property="userNameTextField" destination="FO6-BA-9KG" id="Bgf-Zc-MOp"/>
+                        <outlet property="userPasswordTextField" destination="FcL-TB-DZt" id="dxg-Ym-vOA"/>
+                        <outlet property="userSurnameTextField" destination="vC4-40-dO9" id="q2P-n4-2rC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GHd-MV-pas" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4622.5" y="431.5"/>
+            <point key="canvasLocation" x="6798.5" y="2088.5"/>
         </scene>
         <!--Friends-->
         <scene sceneID="brE-XB-OtY">
@@ -369,7 +418,7 @@
         <!--My Profile-->
         <scene sceneID="uWi-ne-Khh">
             <objects>
-                <viewController id="bjI-Kp-QKC" sceneMemberID="viewController">
+                <viewController id="bjI-Kp-QKC" customClass="ViewController" customModule="xLanguageSketch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bLE-TM-nOj"/>
                         <viewControllerLayoutGuide type="bottom" id="j6H-F7-wm3"/>
@@ -385,12 +434,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Profile" id="yHP-hg-8oj">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="qC2-oO-X2T">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mby-7A-P6A">
-                                <rect key="frame" x="288" y="7" width="71" height="30"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="8lq-j8-RLr">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STo-VG-vT6">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
-                                <state key="normal" title="Edit"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutButtonTapped:" destination="bjI-Kp-QKC" eventType="touchUpInside" id="LEa-eu-vyh"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="loginView" id="AOI-Qz-34W"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -400,31 +453,13 @@
             </objects>
             <point key="canvasLocation" x="5400.5" y="2088.5"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="OBR-Jm-50L">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZUl-Wy-o4S" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Df7-LH-YLV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FUF-es-fRd"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="euW-Nf-mSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3154.5" y="431.5"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="pT6-fB-Lpz">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="n06-bl-5Ga" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="PzC-zm-AWL"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ujt-oP-1s9">
                         <autoresizingMask key="autoresizingMask"/>
@@ -439,11 +474,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ad-PK-wTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3877.5" y="1246.5"/>
+            <point key="canvasLocation" x="3773.5" y="1246.5"/>
         </scene>
         <!--Words-->
         <scene sceneID="zc6-JM-NTI">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Oc-QU-uds" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0DN-W7-80n" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Words" image="1455543783_A-fonts" id="Ii7-Gh-fak"/>
                     <toolbarItems/>
@@ -456,13 +492,13 @@
                         <segue destination="17h-nD-UcW" kind="relationship" relationship="rootViewController" id="Hez-aQ-uQT"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Oc-QU-uds" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4101.5" y="2088.5"/>
         </scene>
         <!--Chats-->
         <scene sceneID="oPo-VP-0Kl">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PmC-06-U19" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ut7-Fx-IZ6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Chats" image="1455543329_bubble" id="wwE-NN-v13"/>
                     <toolbarItems/>
@@ -475,7 +511,6 @@
                         <segue destination="nDN-Qi-kUa" kind="relationship" relationship="rootViewController" id="KeY-XZ-D05"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PmC-06-U19" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3252.5" y="2088.5"/>
         </scene>
@@ -567,6 +602,7 @@
         <!--Friends-->
         <scene sceneID="MoS-ly-ufT">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UuU-6b-ShC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppv-wA-5aM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Friends" image="plainicon.com-39373-256px" id="OO5-vq-Eze"/>
                     <toolbarItems/>
@@ -579,13 +615,13 @@
                         <segue destination="rhw-It-4Ap" kind="relationship" relationship="rootViewController" id="cuO-FC-zeq"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UuU-6b-ShC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2381.5" y="2088.5"/>
         </scene>
         <!--Information-->
         <scene sceneID="a6k-2P-ZSJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFd-tN-bdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rs0-Ib-Hmg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Information" image="1455543816_Info01" id="a9h-Xk-paS"/>
                     <toolbarItems/>
@@ -598,7 +634,6 @@
                         <segue destination="bjI-Kp-QKC" kind="relationship" relationship="rootViewController" id="uR9-4Z-DNQ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kFd-tN-bdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4949.5" y="2088.5"/>
         </scene>
@@ -619,7 +654,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBR-fd-jFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4141.5" y="431.5"/>
+            <point key="canvasLocation" x="6333.5" y="2088.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lyx-5v-5Oh">
@@ -650,7 +685,4 @@
         <image name="IMG_0765" width="520" height="800"/>
         <image name="plainicon.com-39373-256px" width="25" height="25"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="wuG-RV-L6R"/>
-    </inferredMetricsTieBreakers>
 </document>
