@@ -9,11 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var introductionLabel: UILabel!
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var nativeLanguageLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        nameLabel.layer.borderColor = UIColor.grayColor().CGColor
+        introductionLabel.layer.borderColor = UIColor.grayColor().CGColor
+        countryLabel.layer.borderColor = UIColor.grayColor().CGColor
+        nativeLanguageLabel.layer.borderColor = UIColor.grayColor().CGColor
+        
+        nameLabel.layer.borderWidth = 1
+        introductionLabel.layer.borderWidth = 1
+        countryLabel.layer.borderWidth = 1
+        nativeLanguageLabel.layer.borderWidth = 1
     }
 
     override func didReceiveMemoryWarning() {

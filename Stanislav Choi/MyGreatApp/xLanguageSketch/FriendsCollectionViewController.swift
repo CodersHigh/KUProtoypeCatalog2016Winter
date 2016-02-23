@@ -13,6 +13,8 @@ var Friends = [String]()
 
 class FriendsCollectionViewController: UICollectionViewController {
     
+    @IBOutlet weak var profilePicture: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
