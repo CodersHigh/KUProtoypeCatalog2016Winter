@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         introductionLabel.layer.borderWidth = 1
         countryLabel.layer.borderWidth = 1
         nativeLanguageLabel.layer.borderWidth = 1
+        
+        nameLabel.layer.cornerRadius = 8
+        introductionLabel.layer.cornerRadius = 8
+        countryLabel.layer.cornerRadius = 8
+        nativeLanguageLabel.layer.cornerRadius = 8
     }
 
     override func didReceiveMemoryWarning() {
