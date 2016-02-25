@@ -7,3 +7,5 @@
 <img src="https://raw.githubusercontent.com/JiheonLee/KUProtoypeCatalog2016Winter/master/jiheonlee/Mockups/화이트보드_160119_1.jpg" alt="Completry Screenshot" height="250" > 
 <img src="https://raw.githubusercontent.com/JiheonLee/KUProtoypeCatalog2016Winter/master/jiheonlee/Mockups/화이트보드_160119_3.jpg" alt="Completry Screenshot" height="250" >
  <img src="https://raw.githubusercontent.com/JiheonLee/KUProtoypeCatalog2016Winter/master/jiheonlee/Mockups/화이트보드_160119_6.jpg" alt="Completry Screenshot" height="250" >
+  
+##스토리보드
