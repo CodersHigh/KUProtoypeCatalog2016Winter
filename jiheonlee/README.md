@@ -9,3 +9,4 @@
  <img src="https://raw.githubusercontent.com/JiheonLee/KUProtoypeCatalog2016Winter/master/jiheonlee/Mockups/화이트보드_160119_6.jpg" alt="Completry Screenshot" height="250" >
   
 ##스토리보드
+<img src="https://raw.githubusercontent.com/JiheonLee/KUProtoypeCatalog2016Winter/master/jiheonlee/Mockups/스크린샷%202016-02-25%20오후%201.37.41.png" alt="Completry Screenshot" height="250" >
