@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0C86621E1C59EAF400A32FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86621D1C59EAF400A32FA1 /* AppDelegate.swift */; };
-		0C8662201C59EAF400A32FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86621F1C59EAF400A32FA1 /* ViewController.swift */; };
 		0C8662231C59EAF400A32FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8662211C59EAF400A32FA1 /* Main.storyboard */; };
 		0C8662251C59EAF400A32FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8662241C59EAF400A32FA1 /* Assets.xcassets */; };
 		0C8662281C59EAF400A32FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8662261C59EAF400A32FA1 /* LaunchScreen.storyboard */; };
+		0C9CBC881C74127C00C08787 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9CBC871C74127C00C08787 /* WordsTableViewController.swift */; };
+		0C9F9A271C7ACEBE004A99B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F9A261C7ACEBE004A99B5 /* LoginViewController.swift */; };
+		0C9F9A311C7AEEFB004A99B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F9A301C7AEEFB004A99B5 /* ViewController.swift */; };
+		0C9F9A331C7AF1EB004A99B5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F9A321C7AF1EB004A99B5 /* TabBarController.swift */; };
+		0CF2FDC01C7558FD00FB6126 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FDBF1C7558FD00FB6126 /* CreateAccountViewController.swift */; };
+		0CF2FDC41C7561E900FB6126 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FDC31C7561E900FB6126 /* FriendsCollectionViewController.swift */; };
+		0CF2FDC81C758EB000FB6126 /* FriendsInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FDC71C758EB000FB6126 /* FriendsInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C86621A1C59EAF400A32FA1 /* xLanguageSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xLanguageSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C86621D1C59EAF400A32FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C86621F1C59EAF400A32FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C8662221C59EAF400A32FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C8662241C59EAF400A32FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C8662271C59EAF400A32FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8662291C59EAF400A32FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9CBC871C74127C00C08787 /* WordsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		0C9F9A261C7ACEBE004A99B5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0C9F9A301C7AEEFB004A99B5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C9F9A321C7AF1EB004A99B5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0CF2FDBF1C7558FD00FB6126 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0CF2FDC31C7561E900FB6126 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
+		0CF2FDC71C758EB000FB6126 /* FriendsInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				0C86621D1C59EAF400A32FA1 /* AppDelegate.swift */,
-				0C86621F1C59EAF400A32FA1 /* ViewController.swift */,
 				0C8662211C59EAF400A32FA1 /* Main.storyboard */,
+				0C9CBC871C74127C00C08787 /* WordsTableViewController.swift */,
+				0C9F9A261C7ACEBE004A99B5 /* LoginViewController.swift */,
+				0CF2FDBF1C7558FD00FB6126 /* CreateAccountViewController.swift */,
+				0CF2FDC31C7561E900FB6126 /* FriendsCollectionViewController.swift */,
+				0CF2FDC71C758EB000FB6126 /* FriendsInformationViewController.swift */,
+				0C9F9A301C7AEEFB004A99B5 /* ViewController.swift */,
+				0C9F9A321C7AF1EB004A99B5 /* TabBarController.swift */,
 				0C8662241C59EAF400A32FA1 /* Assets.xcassets */,
 				0C8662261C59EAF400A32FA1 /* LaunchScreen.storyboard */,
 				0C8662291C59EAF400A32FA1 /* Info.plist */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8662201C59EAF400A32FA1 /* ViewController.swift in Sources */,
+				0C9F9A271C7ACEBE004A99B5 /* LoginViewController.swift in Sources */,
+				0C9F9A331C7AF1EB004A99B5 /* TabBarController.swift in Sources */,
+				0CF2FDC01C7558FD00FB6126 /* CreateAccountViewController.swift in Sources */,
 				0C86621E1C59EAF400A32FA1 /* AppDelegate.swift in Sources */,
+				0CF2FDC81C758EB000FB6126 /* FriendsInformationViewController.swift in Sources */,
+				0CF2FDC41C7561E900FB6126 /* FriendsCollectionViewController.swift in Sources */,
+				0C9F9A311C7AEEFB004A99B5 /* ViewController.swift in Sources */,
+				0C9CBC881C74127C00C08787 /* WordsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
